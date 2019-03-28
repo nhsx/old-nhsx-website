@@ -1,0 +1,25 @@
+queue:
+  name: Hosted Ubuntu 1604
+  demands: npm
+
+steps:
+- task: Npm@1
+  displayName: 'npm install'
+  inputs:
+    verbose: true
+
+- script: |
+    mkdir src
+    find . -maxdepth 1 -not \( -name 'azure-pipelines.yml' -or -name .git -or -name .gitignore -or -name README.md -or -name src -or -name . \) -exec mv '{}' './src/' \;
+    npm install  --prefix src
+  displayName: 'npm install'
+
+- task: ArchiveFiles@2
+  displayName: 'Archive files'
+  inputs:
+    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/src'
+    includeRootFolder: false
+
+
+- task: PublishBuildArtifacts@1
+  displayName: 'Publish artifacts: drop'
