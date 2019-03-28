@@ -19,6 +19,7 @@ const app = express();
 
 // Middleware to serve static assets
 app.use(express.static(path.join(__dirname, 'public/')));
+app.use('/nhsuk-frontend', express.static(path.join(__dirname, '/node_modules/nhsuk-frontend/packages')));
 
 // View engine (Nunjucks)
 app.set('view engine', 'njk');
@@ -46,7 +47,7 @@ app.get('/', (req, res, next) => {
 if (env === 'production') {
   app.listen(port);
 } else {
-  app.listen(port - 50, function () {
+  app.listen(port - 50, function() {
     browserSync({
       proxy: 'localhost:' + (port - 50),
       port: port,

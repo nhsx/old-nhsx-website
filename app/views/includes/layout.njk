@@ -6,20 +6,38 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="The NHSX website">
+    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}Thee NHSX website{% endif %}">
 
-    <title>NHSX website</title>
-
-    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
-    <link rel="icon" sizes="32x32" type="image/png" href="assets/favicon.png">
+    <title>{% if pageTitle %}{{pageTitle}} - NHSX{% else %}NHSX{% endif %}</title>
 
     <link rel="stylesheet" href="css/main.min.css">
 
     <script src="js/main.bundle.min.js" defer></script>
+
+    <link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2" rel="preload" as="font" crossorigin>
+    <link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2" rel="preload" as="font" crossorigin>
+    <link href="https://www.nhs.uk/" rel="preconnect  dns-prefetch">
+    <link href="https://assets.nhs.uk/" rel="preconnect  dns-prefetch" crossorigin>
+
+    <!--[if IE]><link rel="shortcut icon" href="/nhsuk-frontend/assets/favicons/favicon.ico"><![endif]-->
+    <link rel="apple-touch-icon" href="/nhsuk-frontend/assets/favicons/apple-touch-icon.png">
+    <link rel="icon" href="/nhsuk-frontend/assets/favicons/favicon.png">
   </head>
 
   <body>
-    {% block body %}{% endblock %}
+    <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
+
+    {% include 'includes/header.njk' %}
+
+    {% block outerBody %}{% endblock %}
+
+    <div class="nhsuk-width-container">
+      <main class="nhsuk-main-wrapper" id="maincontent">
+        {% block body %}{% endblock %}
+      </main>
+    </div>
+
+    {% include 'includes/footer.njk' %}
   </body>
 
 </html>
