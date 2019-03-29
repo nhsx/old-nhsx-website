@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}Thee NHSX website{% endif %}">
+    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}The NHSX website{% endif %}">
 
     <title>{% if pageTitle %}{{pageTitle}} - NHSX{% else %}NHSX{% endif %}</title>
 
@@ -22,6 +22,10 @@
     <!--[if IE]><link rel="shortcut icon" href="/nhsuk-frontend/assets/favicons/favicon.ico"><![endif]-->
     <link rel="apple-touch-icon" href="/nhsuk-frontend/assets/favicons/apple-touch-icon.png">
     <link rel="icon" href="/nhsuk-frontend/assets/favicons/favicon.png">
+
+    {% if ADOBE_TRACKING_URL %}
+      <script src="{{ ADOBE_TRACKING_URL }}" type="text/plain" data-cookieconsent="statistics" async></script>
+    {% endif %}
   </head>
 
   <body>

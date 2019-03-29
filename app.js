@@ -7,12 +7,10 @@ const express = require('express');
 const nunjucks = require('nunjucks');
 
 // Local dependencies
+const config = require('./app/config');
+const locals = require('./app/locals');
 const routing = require('./middleware/routing.js');
 const routes = require('./app/routes');
-
-// Set configuration variables
-const port = process.env.PORT || 3000;
-const env = process.env.NODE_ENV || 'development';
 
 // Initialise application
 const app = express();
@@ -23,6 +21,9 @@ app.use('/nhsuk-frontend', express.static(path.join(__dirname, '/node_modules/nh
 
 // View engine (Nunjucks)
 app.set('view engine', 'njk');
+
+// Use local variables
+app.use(locals(config));
 
 // Nunjucks configuration
 const appViews = [
@@ -44,19 +45,19 @@ app.get('/', (req, res, next) => {
   routing.matchRoutes(req, res, next);
 });
 
-if (env === 'production') {
-  app.listen(port);
-} else {
-  app.listen(port - 50, function() {
+if (config.env === 'development') {
+  app.listen(config.port - 50, function() {
     browserSync({
-      proxy: 'localhost:' + (port - 50),
-      port: port,
+      proxy: 'localhost:' + (config.port - 50),
+      port: config.port,
       ui: false,
       files: ['app/views/**/*.*', 'public/**/*.*'],
       open: false,
       notify: true,
     })
   })
+} else {
+  app.listen(config.port);
 }
 
 module.exports = app;
