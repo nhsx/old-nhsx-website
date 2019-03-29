@@ -2,6 +2,7 @@
 
 ## 0.0.2 - Unreleased
 
+- Add pull request templates for contributors
 - Use gzip compression to increase the speed of web app
 
 ## 0.0.1 - 29/03/2019
