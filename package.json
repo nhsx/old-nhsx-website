@@ -28,6 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "browser-sync": "^2.26.3",
+    "compression": "^1.7.4",
     "copyfiles": "^2.1.0",
     "express": "^4.16.4",
     "nhsuk-frontend": "^2.0.0",
