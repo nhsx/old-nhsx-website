@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.0.2 - 29/03/2019
+
+- Remove production analytics tracking until go live
+- Add pull request templates for contributors
+- Use gzip compression to increase the speed of web app
+
 ## 0.0.1 - 29/03/2019
 
 - Add Adobe Analytics, our chosen analytics platform, to the different environments

@@ -3,6 +3,7 @@ const path = require('path');
 
 // External dependencies
 const browserSync = require('browser-sync');
+const compression = require('compression');
 const express = require('express');
 const nunjucks = require('nunjucks');
 
@@ -24,6 +25,10 @@ app.set('view engine', 'njk');
 
 // Use local variables
 app.use(locals(config));
+
+// Use gzip compression to decrease the size of
+// the response body and increase the speed of web app
+app.use(compression());
 
 // Nunjucks configuration
 const appViews = [
