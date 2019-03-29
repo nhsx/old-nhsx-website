@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Include JavaScript for the skip link to function properly
 - Add NHS.UK cookie consent banner, for cookie management across NHS.UK
 
 ## 0.0.2 - 29/03/2019
