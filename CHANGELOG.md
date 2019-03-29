@@ -1,7 +1,8 @@
 # Changelog
 
-## 0.0.2 - Unreleased
+## 0.0.2 - 29/03/2019
 
+- Remove production analytics tracking until go live
 - Add pull request templates for contributors
 - Use gzip compression to increase the speed of web app
 

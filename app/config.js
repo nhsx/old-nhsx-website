@@ -12,6 +12,6 @@ module.exports = {
   analytics: {
     development: '//assets.adobedtm.com/launch-ENd266f1c707a54447ad3aae80d61322de-development.min.js',
     staging: '//assets.adobedtm.com/launch-ENa55251f775954d9592d110a6b4ad26a1-staging.min.js',
-    production: '//assets.adobedtm.com/launch-ENe7f6cdd7cc05409b86547d9153429788.min.js',
+    production: '',
   },
 };
