@@ -10,5 +10,7 @@ module.exports = config => (req, res, next) => {
     res.locals.ADOBE_TRACKING_URL = config.analytics.production;
   }
 
+  res.locals.COOKIE_CONSENT_URL = config.cookies.scriptURL;
+
   next();
 };

@@ -14,4 +14,9 @@ module.exports = {
     staging: '//assets.adobedtm.com/launch-ENa55251f775954d9592d110a6b4ad26a1-staging.min.js',
     production: '',
   },
+
+  // Cookie consent banner
+  cookies: {
+    scriptURL: '//assets.nhs.uk/scripts/cookie-consent.js',
+  },
 };

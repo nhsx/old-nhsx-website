@@ -27,6 +27,11 @@
     <!-- Adobe Analytics -->
     <script src="{{ ADOBE_TRACKING_URL }}" type="text/plain" data-cookieconsent="statistics" async></script>
     {% endif %}
+
+    {%- if COOKIE_CONSENT_URL %}
+    <!-- Cookie consent banner -->
+    <script src="{{ COOKIE_CONSENT_URL }}" type="text/javascript" data-cookieconsent="necessary" async></script>
+    {% endif %}
   </head>
 
   <body>
