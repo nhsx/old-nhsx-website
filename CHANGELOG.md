@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Use manual express routes and tidy up BrowserSync config
 - Use NHS.UK eslint config
 - Include JavaScript for the skip link to function properly
 - Add NHS.UK cookie consent banner, for cookie management across NHS.UK

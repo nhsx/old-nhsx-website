@@ -10,7 +10,6 @@ const nunjucks = require('nunjucks');
 // Local dependencies
 const config = require('./app/config');
 const locals = require('./app/locals');
-const routing = require('./middleware/routing.js');
 const routes = require('./app/routes');
 
 // Initialise application
@@ -45,22 +44,18 @@ nunjucks.configure(appViews, {
 // Custom routes
 app.use('/', routes);
 
-// Automatically route pages
-app.get('/', (req, res, next) => {
-  routing.matchRoutes(req, res, next);
-});
-
+// Run application on configured port
 if (config.env === 'development') {
-  app.listen(config.port - 50, function() {
+  app.listen(config.port - 50, () => {
     browserSync({
-      proxy: 'localhost:' + (config.port - 50),
-      port: config.port,
-      ui: false,
       files: ['app/views/**/*.*', 'public/**/*.*'],
-      open: false,
       notify: true,
-    })
-  })
+      open: false,
+      port: config.port,
+      proxy: `localhost:${config.port - 50}`,
+      ui: false,
+    });
+  });
 } else {
   app.listen(config.port);
 }

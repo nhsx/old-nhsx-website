@@ -1,7 +1,11 @@
 // External dependencies
 const express = require('express');
+
+// Initialise router
 const router = express.Router();
 
-// Add custom routes here - above the module.exports line
- 
+router.get('/', (req, res) => {
+  res.render('index');
+});
+
 module.exports = router;
