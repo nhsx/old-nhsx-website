@@ -1,0 +1,54 @@
+{% extends 'includes/layout.njk' %}
+
+{% block outerBody %}
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+  <div class="nhsuk-width-container">
+    <ol class="nhsuk-breadcrumb__list">
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/">Home</a></li>
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/our-policies">Our policies</a></li>
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/our-policies/cookies-policy">Cookies on the NHSX website</a></li>
+    </ol>
+    <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="/our-policies/cookies-policy">Back to Cookies on the NHSX website</a></p>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-full">
+
+    <div class="nhsuk-u-reading-width">
+      <h1>Details about the cookies we use</h1>
+      <p>This is a list of all the cookies we use on the NHS website.</p>
+      <p>If there's a group of cookies you do not want us to put on your device, you can <a href="/our-policies/cookies-policy">turn cookies on or off</a>.</p>
+
+      <h2>Cookies needed for the website to work</h2>
+      <p>These cookies do things like keep the website secure. They always need to be on.</p>
+    </div>
+
+    <div class="nhsuk-u-reading-width">
+      <h2>Cookies that remember your settings</h2>
+      <p>These cookies do things like remember pop-ups you've seen, so you're not shown them again.</p>
+    </div>
+
+    <div class="nhsuk-u-reading-width">
+      <h2>Cookies that measure website use</h2>
+      <p>These cookies store information about how you use our website, such as what you click on.</p>
+    </div>
+
+    <div class="nhsuk-u-reading-width">
+      <h2>Cookies that help with health campaigns</h2>
+      <p>These cookies do things like tell us if you've seen our adverts on social media, such as Facebook or Twitter.</p>
+    </div>
+
+    <div class="nhsuk-c-review-date">
+      <p class="nhsuk-body-s">
+        Page last reviewed: 01/04/2019
+        <br>
+        Next review due: 01/04/2022
+      </p>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
