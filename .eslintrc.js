@@ -1,3 +1,6 @@
 module.exports = {
-  "extends": "airbnb-base"
+  "extends": "nhsuk",
+  "env": {
+    "browser": true,
+  }
 };
