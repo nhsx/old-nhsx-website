@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Add missing '/' to correct the paths for the CSS/JS files
 - Use manual express routes and tidy up BrowserSync config
 - Use NHS.UK eslint config
 - Include JavaScript for the skip link to function properly
