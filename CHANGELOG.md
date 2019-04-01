@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Apply NHSX styling to the Header and Footer components
 - Use Header component with a navigation menu
 - Import JavaScript modules from NHS.UK frontend package rather than local files
 - Move build task dependencies to be devDependencies rather than regular
