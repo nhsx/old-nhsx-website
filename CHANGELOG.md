@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Fix issue on Internet Explorer with the NHSX logo being auto width
 - Use Google Analytics instead of Adobe Analytics due to the jQuery dependency required by Adobe
 - Add placeholder content pages and page descriptions
 - Populated the sitemap page with a hotfix for nested list spacing [NHS.UK frontend issue 430](https://github.com/nhsuk/nhsuk-frontend/issues/430)
