@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Add placeholder page title and description fields to each page
 - Add placeholder policy and sitemap pages
 - Apply NHSX styling to the Header and Footer components
 - Use Header component with a navigation menu
