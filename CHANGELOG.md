@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Add placeholder content pages and page descriptions
 - Populated the sitemap page with a hotfix for nested list spacing [NHS.UK frontend issue 430](https://github.com/nhsuk/nhsuk-frontend/issues/430)
 - Add placeholder page title and description fields to each page
 - Add placeholder policy and sitemap pages

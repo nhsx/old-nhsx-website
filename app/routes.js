@@ -8,6 +8,26 @@ router.get('/', (req, res) => {
   res.render('index');
 });
 
+router.get('/who-we-are', (req, res) => {
+  res.render('pages/who-we-are');
+});
+
+router.get('/what-we-do', (req, res) => {
+  res.render('pages/what-we-do');
+});
+
+router.get('/how-we-work', (req, res) => {
+  res.render('pages/how-we-work');
+});
+
+router.get('/key-information-and-tools', (req, res) => {
+  res.render('pages/key-information-and-tools');
+});
+
+router.get('/get-involved', (req, res) => {
+  res.render('pages/get-involved');
+});
+
 router.get('/our-policies', (req, res) => {
   res.render('pages/our-policies/index');
 });
