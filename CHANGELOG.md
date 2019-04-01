@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Use Header component with a navigation menu
 - Import JavaScript modules from NHS.UK frontend package rather than local files
 - Move build task dependencies to be devDependencies rather than regular
 - Use Webpack to compile JavaScript bundles instead of rollup.js
