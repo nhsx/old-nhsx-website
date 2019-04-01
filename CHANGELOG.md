@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.3 - Unreleased
+## 0.0.3 - 02/04/2019
 
 - Fix issue on Internet Explorer with the NHSX logo being auto width
 - Use Google Analytics instead of Adobe Analytics due to the jQuery dependency required by Adobe
