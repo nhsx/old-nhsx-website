@@ -1,5 +1,5 @@
 // NHS.UK frontend
-import nhsuk_skipLink from './skipLink'; /* eslint-disable-line camelcase */
+import nhsuk_skipLink from '../../node_modules/nhsuk-frontend/packages/components/skip-link/skip-link'; /* eslint-disable-line camelcase */
 
 // Initialise components
 nhsuk_skipLink();

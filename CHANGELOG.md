@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Import JavaScript modules from NHS.UK frontend package rather than local files
 - Move build task dependencies to be devDependencies rather than regular
 - Use Webpack to compile JavaScript bundles instead of rollup.js
 - Add cookie policy page logic with placeholder cookie declaration page
