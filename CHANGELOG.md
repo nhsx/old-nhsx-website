@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Populated the sitemap page with a hotfix for nested list spacing [NHS.UK frontend issue 430](https://github.com/nhsuk/nhsuk-frontend/issues/430)
 - Add placeholder page title and description fields to each page
 - Add placeholder policy and sitemap pages
 - Apply NHSX styling to the Header and Footer components

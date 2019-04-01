@@ -46,3 +46,13 @@ $colour_nhsx-blue: #003087;
 .nhsuk-footer--nhsx {
   border-top: 4px solid $colour_nhsx-blue;
 }
+
+
+// Utilities
+.nhsx-u-nested-list {
+  margin-bottom: 0;
+}
+
+.nhsx-u-nested-list > li {
+  @include nhsuk-responsive-margin(2, 'top');
+}
