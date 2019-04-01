@@ -4,9 +4,10 @@
   "description": "The NHSX website",
   "main": "app.js",
   "scripts": {
+    "babel": "babel --presets es2015 app/scripts/main.js -o public/js/main.bundle.js",
     "build": "npm run build:css && npm run build:js && npm run build:assets",
     "build:css": "node-sass --output-style compressed app/styles/main.scss public/css/main.min.css",
-    "build:js": "rollup -c",
+    "build:js": "npm run webpack",
     "build:assets": "copyfiles --flat app/assets/* public/assets/",
     "clean": "touch public/tmp.txt && rm -rf public/*",
     "lint": "npm run lint:js && npm run lint:css",
@@ -18,7 +19,8 @@
     "test": "mocha --require @babel/register test/**/*.spec.js && npm run lint",
     "watch": "concurrently \"npm run watch:scss\" \"npm run watch:js\" \"npm start\"",
     "watch:scss": "npm run build:css -- -w",
-    "watch:js": "npm run build:js -- -w"
+    "watch:js": "webpack -w",
+    "webpack": "webpack"
   },
   "author": "https://github.com/nhsx",
   "repository": {
@@ -40,6 +42,7 @@
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
     "@babel/register": "^7.4.0",
+    "babel-loader": "^8.0.5",
     "chai": "^4.2.0",
     "concurrently": "^4.1.0",
     "eslint": "^5.15.3",
@@ -47,10 +50,8 @@
     "eslint-config-nhsuk": "^0.16.0",
     "eslint-plugin-import": "^2.16.0",
     "mocha": "^5.2.0",
-    "rollup": "^1.7.3",
-    "rollup-plugin-babel": "^4.3.2",
-    "rollup-plugin-node-resolve": "^4.0.1",
-    "rollup-plugin-uglify": "^6.0.2",
-    "sass-lint": "^1.12.1"
+    "sass-lint": "^1.12.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
