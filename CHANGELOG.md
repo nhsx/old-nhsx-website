@@ -2,6 +2,7 @@
 
 ## 0.0.3 - Unreleased
 
+- Move build task dependencies to be devDependencies rather than regular
 - Use Webpack to compile JavaScript bundles instead of rollup.js
 - Add cookie policy page logic with placeholder cookie declaration page
 - Add missing '/' to correct the paths for the CSS/JS files
