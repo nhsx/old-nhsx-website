@@ -2,6 +2,7 @@
 
 ## 0.0.4 - Unreleased
 
+- Populate pages with approved content
 - Add placeholder Homepage sections for video and get involved
 - Use an improved SVG icon for the NHSX logo
 - Add hero and promo components with additional NHSX styling to the homepage

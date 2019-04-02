@@ -21,7 +21,27 @@ router.get('/how-we-work', (req, res) => {
 });
 
 router.get('/key-information-and-tools', (req, res) => {
-  res.render('pages/key-information-and-tools');
+  res.render('pages/key-information-and-tools/index');
+});
+
+router.get('/key-information-and-tools/key-documents', (req, res) => {
+  res.render('pages/key-information-and-tools/key-documents');
+});
+
+router.get('/key-information-and-tools/apps-and-tools', (req, res) => {
+  res.render('pages/key-information-and-tools/apps-and-tools');
+});
+
+router.get('/key-information-and-tools/designing-and-building-products-and-services', (req, res) => {
+  res.render('pages/key-information-and-tools/designing-and-building-products-and-services');
+});
+
+router.get('/key-information-and-tools/policy-strategy-and-national-programmes', (req, res) => {
+  res.render('pages/key-information-and-tools/policy-strategy-and-national-programmes');
+});
+
+router.get('/key-information-and-tools/blogs-and-updates', (req, res) => {
+  res.render('pages/key-information-and-tools/blogs-and-updates');
 });
 
 router.get('/get-involved', (req, res) => {
