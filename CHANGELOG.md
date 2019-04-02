@@ -2,6 +2,7 @@
 
 ## 0.0.4 - 03/04/2019
 
+- Populate the accessibility statement with approved content
 - Use the correct URL for the cookies policy page
 - Use the approved Hero header image on the homepage
 - Fix invalid HTML and add cookie declaration to the sitemap
