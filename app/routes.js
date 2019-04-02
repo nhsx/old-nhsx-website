@@ -24,10 +24,6 @@ router.get('/key-information-and-tools', (req, res) => {
   res.render('pages/key-information-and-tools/index');
 });
 
-router.get('/key-information-and-tools/key-documents', (req, res) => {
-  res.render('pages/key-information-and-tools/key-documents');
-});
-
 router.get('/key-information-and-tools/apps-and-tools', (req, res) => {
   res.render('pages/key-information-and-tools/apps-and-tools');
 });
