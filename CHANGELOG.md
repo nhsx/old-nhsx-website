@@ -2,6 +2,7 @@
 
 ## 0.0.4 - 03/04/2019
 
+- Use the approved Hero header image on the homepage
 - Fix invalid HTML and add cookie declaration to the sitemap
 - Create a 404 page with some basic content
 - Improve the README file with a description and contributing
