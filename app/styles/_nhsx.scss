@@ -1,14 +1,14 @@
-$colour_nhsx-blue: #003087;
+$color_nhsx-blue: #003087;
 
 // NHSX header
 
 .nhsuk-header--nhsx {
-  background-color: $colour_nhsx-blue;
+  background-color: $color_nhsx-blue;
 }
 
 @include mq($from: large-desktop) {
   .nhsuk-header__navigation--nhsx {
-    background-color: $colour_nhsx-blue;
+    background-color: $color_nhsx-blue;
   }
 }
 
@@ -27,7 +27,7 @@ $colour_nhsx-blue: #003087;
 // NHSX navigation
 
 .nhsuk-header__navigation-link--nhsx:hover {
-  background-color: $colour_nhsx-blue;
+  background-color: $color_nhsx-blue;
 }
 
 @include mq($from: large-desktop) {
@@ -44,7 +44,7 @@ $colour_nhsx-blue: #003087;
 // NHSX footer
 
 .nhsuk-footer--nhsx {
-  border-top: 4px solid $colour_nhsx-blue;
+  border-top: 4px solid $color_nhsx-blue;
 }
 
 

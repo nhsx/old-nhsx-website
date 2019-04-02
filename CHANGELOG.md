@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.4 - Unreleased
+
+- Use the correct CSS spelling color for the NHSX colour variables
+
 ## 0.0.3 - 02/04/2019
 
 - Fix issue on Internet Explorer with the NHSX logo being auto width
