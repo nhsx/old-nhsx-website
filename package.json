@@ -16,7 +16,7 @@
     "nuke": "npm run clean && rm -rf node_modules/",
     "postinstall": "npm run build",
     "start": "node app",
-    "test": "mocha --require @babel/register test/**/*.spec.js && npm run lint",
+    "test": "npm run lint",
     "watch": "concurrently \"npm run watch:scss\" \"npm run watch:js\" \"npm start\"",
     "watch:scss": "npm run build:css -- -w",
     "watch:js": "webpack -w",
@@ -37,10 +37,8 @@
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/preset-env": "^7.4.2",
-    "@babel/register": "^7.4.0",
     "babel-loader": "^8.0.5",
     "browser-sync": "^2.26.3",
-    "chai": "^4.2.0",
     "concurrently": "^4.1.0",
     "copyfiles": "^2.1.0",
     "eslint": "^5.15.3",
@@ -49,7 +47,6 @@
     "eslint-plugin-import": "^2.16.0",
     "nhsuk-frontend": "^2.0.0",
     "node-sass": "^4.11.0",
-    "mocha": "^5.2.0",
     "sass-lint": "^1.12.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
