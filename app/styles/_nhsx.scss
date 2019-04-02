@@ -104,6 +104,43 @@ $color_nhsx-blue: #003087;
   height: 100%;
 }
 
+// NHSX responsive table
+
+@include mq($until: tablet) {
+  thead {
+    position: absolute;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    height: 1px; width: 1px;
+    margin: -1px; padding: 0; border: 0;
+  }
+  tr {
+    border-bottom: solid 2px #d8dde0;
+    display: block;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+  td {
+    border-bottom: 1px dotted #d8dde0;
+    display: block;
+    text-align: left;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+
+    &::before {
+      content: attr(data-label);
+      display: block;
+      font-weight: bold;
+      padding-right: 20px;
+    }
+  }
+
+}
+
 // NHSX footer
 
 .nhsuk-footer--nhsx {
