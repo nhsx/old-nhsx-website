@@ -2,6 +2,7 @@
 
 ## 0.0.4 - 03/04/2019
 
+- Fix issue with Google analytics script not being classed as statistics type
 - Populate the cookie policy with cookies we use
 - Populate the accessibility statement with approved content
 - Use the correct URL for the cookies policy page
