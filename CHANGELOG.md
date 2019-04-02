@@ -2,6 +2,7 @@
 
 ## 0.0.4 - Unreleased
 
+- Embed videos within content pages, with responsive styling added
 - Add missing main element to the Homepage for the skip link component
 - Populate pages with approved content
 - Add placeholder Homepage sections for video and get involved

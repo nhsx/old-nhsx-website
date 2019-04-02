@@ -68,6 +68,40 @@ $color_nhsx-blue: #003087;
   background-color: $color_nhsuk-white;
 }
 
+// NHSX videos
+
+.nhsx-promo--grey,
+.nhsx-content--grey {
+  background-color: $color_nhsuk-grey-5;
+}
+
+.nhsx-promo--white,
+.nhsx-content--white {
+  background-color: $color_nhsuk-white;
+}
+
+.nhsx-embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.nhsx-embed-container iframe {
+  border: 0;
+}
+
+.nhsx-embed-container iframe,
+.nhsx-embed-container object,
+.nhsx-embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 // NHSX footer
 
 .nhsuk-footer--nhsx {
