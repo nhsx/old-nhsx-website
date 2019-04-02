@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.4 - Unreleased
+## 0.0.4 - 03/04/2019
 
 - Create a 404 page with some basic content
 - Improve the README file with a description and contributing
