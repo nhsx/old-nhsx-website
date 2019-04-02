@@ -1,8 +1,71 @@
 {% set pageTitle = "Home" %}
 {% set pageDescription = "NHSX - a new unit driving forward the digital transformation of health and care." %}
+{% set pageLayout = "Homepage" %}
 
 {% extends 'includes/layout.njk' %}
 
-{% block body %}
-  <h1>Hello World!</h1>
+{% block outerBody %}
+<section class="nhsuk-hero nhsuk-hero--image nhsuk-hero--image-description nhsuk-hero--nhsx" style="background-image: url('https://www.nhs.uk/static/nhsuk_shared/img/homepage/hero-2.jpg');">
+  <div class="nhsuk-hero__overlay">
+    <div class="nhsuk-width-container">
+      <div class="nhsuk-grid-row">
+        <div class="nhsuk-grid-column-two-thirds">
+          <div class="nhsuk-hero-content nhsuk-hero-content--nhsx">
+            <h1 class="nhsuk-u-margin-bottom-3 nhsuk-heading-l">Driving forward the digital transformation of health and care</h1>
+            <span class="nhsuk-hero__arrow nhsuk-hero__arrow--nhsx" aria-hidden="true"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="nhsx-u-hero-spacing">
+  <div class="nhsuk-width-container">
+    <div class="nhsuk-grid-row nhsuk-promo-group">
+      <div class="nhsuk-grid-column-one-half nhsuk-promo-group__item">
+        <div class="nhsuk-promo">
+          <a class="nhsuk-promo__link-wrapper" href="/who-we-are">
+            <div class="nhsuk-promo__content">
+              <h3 class="nhsuk-promo__heading">Who we are</h3>
+              <p class="nhsuk-promo__description">From 1 July, NHSX will bring together teams from the Department of Health and Social Care, NHS England and NHS Improvement.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nhsuk-grid-column-one-half nhsuk-promo-group__item">
+        <div class="nhsuk-promo">
+          <a class="nhsuk-promo__link-wrapper" href="/what-we-do">
+            <div class="nhsuk-promo__content">
+              <h3 class="nhsuk-promo__heading">What we do</h3>
+              <p class="nhsuk-promo__description">We’re here to improve patient care and outcomes by giving NHS patients and staff the technology they need.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="nhsuk-grid-row nhsuk-promo-group">
+      <div class="nhsuk-grid-column-one-half nhsuk-promo-group__item">
+        <div class="nhsuk-promo">
+          <a class="nhsuk-promo__link-wrapper" href="/how-we-work">
+            <div class="nhsuk-promo__content">
+              <h3 class="nhsuk-promo__heading">How we work</h3>
+              <p class="nhsuk-promo__description">Our culture and values.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="nhsuk-grid-column-one-half nhsuk-promo-group__item">
+        <div class="nhsuk-promo">
+          <a class="nhsuk-promo__link-wrapper" href="/key-information-and-tools">
+            <div class="nhsuk-promo__content">
+              <h3 class="nhsuk-promo__heading">Key information and tools</h3>
+              <p class="nhsuk-promo__description">Standards, guidance and support for digital teams.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {% endblock %}

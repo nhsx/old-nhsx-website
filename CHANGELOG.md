@@ -2,6 +2,7 @@
 
 ## 0.0.4 - Unreleased
 
+- Add hero and promo components with additional NHSX styling to the homepage
 - Use the correct CSS spelling color for the NHSX colour variables
 
 ## 0.0.3 - 02/04/2019

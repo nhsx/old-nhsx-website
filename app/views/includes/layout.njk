@@ -49,11 +49,13 @@
 
     {% block outerBody %}{% endblock %}
 
+    {% if pageLayout != 'Homepage' %}
     <div class="nhsuk-width-container">
       <main class="nhsuk-main-wrapper" id="maincontent">
         {% block body %}{% endblock %}
       </main>
     </div>
+    {% endif %}
 
     {% include 'includes/footer.njk' %}
   </body>

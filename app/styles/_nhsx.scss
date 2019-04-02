@@ -41,6 +41,28 @@ $color_nhsx-blue: #003087;
   color: $color_nhsuk-grey-5;
 }
 
+// NHSX hero
+
+.nhsuk-hero--nhsx {
+  .nhsuk-hero-content--nhsx {
+    background-color: $color_nhsx-blue;
+
+    .nhsuk-hero__arrow--nhsx {
+      &:before,
+      &:after {
+        border: solid 32px $color_nhsx-blue;
+      }
+    }
+
+  }
+}
+
+// NHSX sections
+
+.nhsx-section--white {
+  background-color: $color_nhsuk-white;
+}
+
 // NHSX footer
 
 .nhsuk-footer--nhsx {
@@ -49,10 +71,25 @@ $color_nhsx-blue: #003087;
 
 
 // Utilities
+
+// Issue with nested list margins
 .nhsx-u-nested-list {
   margin-bottom: 0;
 }
 
 .nhsx-u-nested-list > li {
   @include nhsuk-responsive-margin(2, 'top');
+}
+
+// Issue with spacing on the hero component
+.nhsx-u-hero-spacing {
+  padding-top: 80px;
+
+  @include mq($from: 380px) {
+    padding-top: 24px;
+  }
+
+  @include mq($from: tablet) {
+    padding-top: 96px;
+  }
 }
