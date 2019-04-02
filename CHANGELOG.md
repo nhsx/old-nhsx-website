@@ -2,6 +2,7 @@
 
 ## 0.0.4 - Unreleased
 
+- Fix the spacing and sizing of typography and components on content pages
 - Embed videos within content pages, with responsive styling added
 - Add missing main element to the Homepage for the skip link component
 - Populate pages with approved content
