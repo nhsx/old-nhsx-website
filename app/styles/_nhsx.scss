@@ -59,6 +59,11 @@ $color_nhsx-blue: #003087;
 
 // NHSX sections
 
+.nhsx-section {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .nhsx-section--white {
   background-color: $color_nhsuk-white;
 }
