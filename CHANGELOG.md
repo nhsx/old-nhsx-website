@@ -2,6 +2,7 @@
 
 ## 0.0.4 - Unreleased
 
+- Add missing main element to the Homepage for the skip link component
 - Populate pages with approved content
 - Add placeholder Homepage sections for video and get involved
 - Use an improved SVG icon for the NHSX logo
