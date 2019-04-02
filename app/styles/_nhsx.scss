@@ -1,0 +1,58 @@
+$colour_nhsx-blue: #003087;
+
+// NHSX header
+
+.nhsuk-header--nhsx {
+  background-color: $colour_nhsx-blue;
+}
+
+@include mq($from: large-desktop) {
+  .nhsuk-header__navigation--nhsx {
+    background-color: $colour_nhsx-blue;
+  }
+}
+
+.nhsuk-header__link--nhsx,
+.nhsuk-header__logo--nhsx .nhsuk-logo--nhsx {
+  width: 120px;
+}
+
+.nhsuk-header__menu-toggle--nhsx:hover,
+.nhsuk-header__menu-toggle--nhsx:active,
+.nhsuk-header__menu-toggle--nhsx.is-active {
+  background-color: $color_nhsuk-black;
+  color: $color_nhsuk-grey-5;
+}
+
+// NHSX navigation
+
+.nhsuk-header__navigation-link--nhsx:hover {
+  background-color: $colour_nhsx-blue;
+}
+
+@include mq($from: large-desktop) {
+  .nhsuk-header__navigation-link--nhsx:hover {
+    background-color: $color_nhsuk-black;
+  }
+}
+
+.nhsuk-header__navigation-link--nhsx:active {
+  background-color: $color_nhsuk-black;
+  color: $color_nhsuk-grey-5;
+}
+
+// NHSX footer
+
+.nhsuk-footer--nhsx {
+  border-top: 4px solid $colour_nhsx-blue;
+}
+
+
+// Utilities
+.nhsx-u-nested-list {
+  margin-bottom: 0;
+}
+
+.nhsx-u-nested-list > li {
+  @include nhsuk-responsive-margin(2, 'top');
+}

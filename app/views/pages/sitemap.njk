@@ -1,0 +1,44 @@
+{% set pageTitle = "Sitemap" %}
+{% set pageDescription = "" %}
+
+{% extends 'includes/layout.njk' %}
+
+{% block outerBody %}
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+  <div class="nhsuk-width-container">
+    <ol class="nhsuk-breadcrumb__list">
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/">Home</a></li>
+    </ol>
+    <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="/">Back to Home</a></p>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-two-thirds">
+
+    <h1>Sitemap</h1>
+
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/who-we-are">Who we are</a></li>
+      <li><a href="/what-we-do">What we do</a></li>
+      <li><a href="/how-we-work">How we work</a></li>
+      <li><a href="/key-information-and-tools">Key information and tools</a></li>
+      <li><a href="/get-involved">Get involved</a></li>
+      <li>
+        <a href="/our-policies">Our policies</a>
+        <ul class="nhsx-u-nested-list">
+          <li><a href="/our-policies/cookies">Cookies</a></li>
+          <li><a href="/our-policies/terms-and-conditions">Terms and conditions</a></li>
+          <li><a href="/our-policies/privacy-policy">Privacy policy</a></li>
+          <li><a href="/our-policies/accessibility">Accessibility</a></li>
+        </ul>
+      </li>
+      <li><a href="/sitemap">Sitemap</a></li>
+    </ul>
+
+  </div>
+</div>
+{% endblock %}

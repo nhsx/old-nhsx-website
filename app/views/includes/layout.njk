@@ -6,29 +6,42 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}The NHSX website{% endif %}">
+    <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}NHSX - a new unit driving forward the digital transformation of health and care.{% endif %}">
 
     <title>{% if pageTitle %}{{pageTitle}} - NHSX{% else %}NHSX{% endif %}</title>
 
-    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="/css/main.min.css">
 
-    <script src="js/main.bundle.min.js" defer></script>
+    <script src="/js/main.bundle.min.js" defer></script>
 
     <link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2" rel="preload" as="font" crossorigin>
     <link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2" rel="preload" as="font" crossorigin>
     <link href="https://www.nhs.uk/" rel="preconnect  dns-prefetch">
     <link href="https://assets.nhs.uk/" rel="preconnect  dns-prefetch" crossorigin>
+    <link href="https://www.googletagmanager.com" rel="preconnect  dns-prefetch">
+    <link href="https://www.google-analytics.com" rel="preconnect  dns-prefetch">
 
     <!--[if IE]><link rel="shortcut icon" href="/nhsuk-frontend/assets/favicons/favicon.ico"><![endif]-->
     <link rel="apple-touch-icon" href="/nhsuk-frontend/assets/favicons/apple-touch-icon.png">
     <link rel="icon" href="/nhsuk-frontend/assets/favicons/favicon.png">
 
-    {% if ADOBE_TRACKING_URL %}
-    <!-- Adobe Analytics -->
-    <script src="{{ ADOBE_TRACKING_URL }}" type="text/plain" data-cookieconsent="statistics" async></script>
+    {%- if COOKIE_CONSENT_URL %}
+    <!-- Cookie consent banner -->
+    <script src="{{ COOKIE_CONSENT_URL }}" type="text/javascript" data-cookieconsent="necessary" async></script>
+    {% endif %}
+
+    {%- if GOOGLE_UA %}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_UA }}" type="text/javascript" data-cookieconsent="necessary" async></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', '{{ GOOGLE_UA }}');
+    </script>
     {% endif %}
   </head>
-
   <body>
     <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>
 
