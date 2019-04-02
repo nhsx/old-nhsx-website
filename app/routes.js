@@ -76,4 +76,9 @@ router.get('/sitemap', (req, res) => {
   res.render('pages/sitemap');
 });
 
+router.use((req, res) => {
+  res.statusCode = 404;
+  res.render('pages/404');
+});
+
 module.exports = router;

@@ -2,6 +2,7 @@
 
 ## 0.0.4 - Unreleased
 
+- Create a 404 page with some basic content
 - Improve the README file with a description and contributing
 - Use the NHSX blue for the homepage hero background colour
 - Fix the spacing and sizing of typography and components on content pages
