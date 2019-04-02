@@ -2,6 +2,7 @@
 
 ## 0.0.4 - 03/04/2019
 
+- Fix issue with the cookie success banner link hover colour not being accessible
 - Combine the key documents page with the policy, strategy and national programmes page
 - Fix issue with Google analytics script not being classed as statistics type
 - Populate the cookie policy with cookies we use

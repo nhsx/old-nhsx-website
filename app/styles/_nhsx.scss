@@ -107,38 +107,39 @@ $color_nhsx-blue: #003087;
 // NHSX responsive table
 
 @include mq($until: tablet) {
-  thead {
-    position: absolute;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    height: 1px; width: 1px;
-    margin: -1px; padding: 0; border: 0;
-  }
-  tr {
-    border-bottom: solid 2px #d8dde0;
-    display: block;
-
-    &:last-child {
-      border-bottom: 0;
+  .nhsx-table-responsive--nhsx {
+    thead {
+      position: absolute;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      height: 1px; width: 1px;
+      margin: -1px; padding: 0; border: 0;
     }
-  }
-  td {
-    border-bottom: 1px dotted #d8dde0;
-    display: block;
-    text-align: left;
-
-    &:last-child {
-      border-bottom: 0;
-    }
-
-    &::before {
-      content: attr(data-label);
+    tr {
+      border-bottom: solid 2px #d8dde0;
       display: block;
-      font-weight: bold;
-      padding-right: 20px;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+    }
+    td {
+      border-bottom: 1px dotted #d8dde0;
+      display: block;
+      text-align: left;
+
+      &:last-child {
+        border-bottom: 0;
+      }
+
+      &::before {
+        content: attr(data-label);
+        display: block;
+        font-weight: bold;
+        padding-right: 20px;
+      }
     }
   }
-
 }
 
 // NHSX footer
@@ -183,5 +184,18 @@ $color_nhsx-blue: #003087;
 
   @include mq($from: tablet) {
     padding-top: 96px;
+  }
+}
+
+// Issue with the cookie success banner link hover colour
+.nhsuk-success-banner {
+  a,
+  a:visited {
+    color: $color_nhsuk-white;
+  }
+
+  a:hover,
+  a:focus {
+    color: $color_nhsuk-black !important; // Important used to override cookie JavaScript
   }
 }
