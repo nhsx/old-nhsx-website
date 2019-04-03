@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Add open graph meta data and image for social media cards
 - Tidy up SCSS code by separating into files and lint the code
 
 ## 0.0.4 - 03/04/2019
