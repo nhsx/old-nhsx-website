@@ -10,7 +10,11 @@
 
 .nhsx-u-border-top {
   border-top: 2px solid $color_nhsx-blue;
-  margin-top: nhsuk-spacing(2);
+  margin-top: nhsuk-spacing(5);
+
+  @include mq($from: desktop) {
+    margin-top: nhsuk-spacing(2);
+  }
 }
 
 .nhsx-u-border-top h3 {
@@ -30,7 +34,7 @@
  * https://github.com/nhsuk/nhsuk-frontend/issues/430
  */
 
- .nhsx-u-nested-list {
+.nhsx-u-nested-list {
   margin-bottom: 0;
 }
 
@@ -64,7 +68,7 @@
  * colours in the NHS.UK cookie consent
  */
 
- .nhsuk-success-banner {
+.nhsuk-success-banner {
   a,
   a:visited {
     color: $color_nhsuk-white;
