@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Set a base URL for the app for any assets that require a full path
 - Update the hero header image to the final version
 - Build the assets before running in development mode
 - Add open graph meta data and image for social media cards
