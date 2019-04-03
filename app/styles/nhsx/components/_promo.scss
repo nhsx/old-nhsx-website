@@ -11,3 +11,9 @@
 .nhsx-content--white {
   background-color: $color_nhsuk-white;
 }
+
+.nhsx-promo--homepage-video {
+  @include mq($from: tablet) {
+    margin-bottom: 0;
+  }
+}

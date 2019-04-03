@@ -3,12 +3,12 @@
    ========================================================================== */
 
 .nhsx-section {
-  padding-bottom: 48px;
-  padding-top: 48px;
+  padding-bottom: 32px;
+  padding-top: 32px;
 
   @include mq($from: tablet) {
-    padding-bottom: 72px;
-    padding-top: 72px;
+    padding-bottom: 60px;
+    padding-top: 60px;
   }
 }
 
