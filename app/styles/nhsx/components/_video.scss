@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #VIDEO
+   ========================================================================== */
+
+.nhsx-embed-container {
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.nhsx-embed-container iframe {
+  border: 0;
+}
+
+.nhsx-embed-container iframe,
+.nhsx-embed-container object,
+.nhsx-embed-container embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}

@@ -1,0 +1,75 @@
+/* ==========================================================================
+   #UTILITIES
+   ========================================================================== */
+
+// sass-lint:disable no-important
+
+/**
+ * Border on the right hand page navigation
+ */
+
+.nhsx-u-border-top {
+  border-top: 2px solid $color_nhsx-blue;
+  margin-top: nhsuk-spacing(2);
+}
+
+.nhsx-u-border-top h3 {
+  margin-bottom: nhsuk-spacing(3);
+  margin-top: nhsuk-spacing(3);
+}
+
+.nhsx-u-border-top ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/**
+ * Hotfix for an issue with nested list spacing in
+ * the NHS.UK frontend library
+ *
+ * https://github.com/nhsuk/nhsuk-frontend/issues/430
+ */
+
+ .nhsx-u-nested-list {
+  margin-bottom: 0;
+}
+
+.nhsx-u-nested-list > li {
+  @include nhsuk-responsive-margin(2, 'top');
+}
+
+/**
+ * Hotfix for an issue with hero spacing in
+ * the NHS.UK frontend library
+ *
+ * https://github.com/nhsuk/nhsuk-frontend/issues/431
+ */
+
+.nhsx-u-hero-spacing {
+  padding-top: 80px;
+
+  @include mq($from: 380px) {
+    padding-top: 24px;
+  }
+
+  @include mq($from: tablet) {
+    padding-top: 96px;
+  }
+}
+
+/**
+ * Hotfix for an issue with cookie banner link hover
+ * colours in the NHS.UK cookie consent
+ */
+
+ .nhsuk-success-banner {
+  a,
+  a:visited {
+    color: $color_nhsuk-white;
+  }
+
+  a:hover,
+  a:focus {
+    color: $color_nhsuk-black !important; // Important used to override cookie JavaScript
+  }
+}

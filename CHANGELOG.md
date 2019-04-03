@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.5 - Unreleased
+
+- Tidy up SCSS code by separating into files and lint the code
+
 ## 0.0.4 - 03/04/2019
 
 - Remove unused tests and dependencies

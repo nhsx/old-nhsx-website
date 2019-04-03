@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #HERO
+   ========================================================================== */
+
+.nhsuk-hero--nhsx {
+  background-color: $color_nhsx-blue;
+
+  .nhsuk-hero-content--nhsx {
+    background-color: $color_nhsx-blue;
+
+    .nhsuk-hero__arrow--nhsx {
+      &:before,
+      &:after {
+        border: solid 32px $color_nhsx-blue;
+      }
+    }
+
+  }
+}
