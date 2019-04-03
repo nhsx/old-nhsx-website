@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Streamline the documentation for running the application
 - Configure variables to be set with environment variables to avoid code changes
 - Content amendments across the website with newly signed off content
 - Content amendments to include health and social care

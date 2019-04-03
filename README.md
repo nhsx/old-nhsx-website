@@ -8,63 +8,19 @@ The NHSX website contains information about what we do, who we are, how we work 
 
 We have built the website using the [NHS.UK frontend library](https://github.com/nhsuk/nhsuk-frontend).
 
+## Quick start
+
+### Running the application
+
+Install the long-term support (LTS) version of <a href="https://nodejs.org/en/">Node.js</a>, which also includes NPM.
+
+Clone the repository `git clone git@github.com:nhsx/nhsx-website.git nhsx-website`, then whilst in the project directory `cd nhsx-website`, install the required npm packages with: `npm install`
+
+Run the project in development mode `npm run watch` and visit <a href="http://localhost:3000">http://localhost:3000</a>.
+
 ## Contributing
 
-The code for the NHSX website is open source and we encourage contributions. So if you come across a bug or a spelling mistake, feel free to open a pull request with your changes or you can open a GitHub issue to report it to us.
-
-## Running the application
-
-### 1. Requirements
-
-* [set up git](https://help.github.com/articles/set-up-git/)
-* [install Node.js](https://nodejs.org/en/)
-We recommend to use the [long-term support (LTS) version of Nodejs](https://nodejs.org/en/download/), rather than the latest beta version.
-
-> Type `git --version` to check if git is installed. This should print a version number like "git version 2.18.0".
-
-> Type `node -v` to check if Node is installed. This should print a version number like "v8.11.3".
-
-### 2. Clone or fork the repository
-
-[Fork the repository](https://help.github.com/articles/fork-a-repo/) first, if you're an external contributor.
-
-You can clone the repository directly if you're a member of the [NHSX GitHub organisation](https://github.com/nhsx/)
-
-```
-git clone git@github.com:nhsx/nhsx-website.git nhsx-website
-```
-
-Otherwise clone your own fork:
-
-```
-git clone https://github.com/[Username]/nhsx-website.git nhsx-website
-```
-
-> Replace '[Username]' in the git clone command above with your own GitHub username.
-
-### 3. Install dependencies
-
-We use [node package manager (npm)](https://docs.npmjs.com/getting-started/what-is-npm) to manage third party dependencies.
-
-Whilst in the project directory you will need to install the dependencies listed in `package.json`
-
-```
-cd nhsx-website
-```
-
-```
-npm install
-```
-
-## 4. Start a local server
-
-This will build files, serve web pages and watch for changes when you save a file.
-
-```
-npm run watch
-```
-
-> The application will be available at [http://localhost:3000](http://localhost:3000).
+The code for the NHSX website is in the open and we encourage contributions. So if you come across a bug or a spelling mistake, feel free to open a pull request with your changes or you can open a GitHub issue to report it to us.
 
 ## Environment variables
 
@@ -76,10 +32,8 @@ the application is being run.
 | `GOOGLE_UA`      | Google analytics user account ID          |         | No
 | `COOKIE_CONSENT_URL`      | The URL for the [NHS.UK in-house implementation of cookie consent](https://github.com/nhsuk/cookie-consent)    | //assets.nhs.uk/scripts/cookie-consent.js |
 | `BASE_URL`      | Domain of the environment          |  https://nhsx.nhs.uk       |
-| `NODE_ENV`      | Node environment  |  development            |
+| `NODE_ENV`      | Node environment. Recommend environments: `production`, `staging` and `development`  |  development            |
 | `PORT`          | Server port       |  3000                   |
-
-We recommend setting the `NODE_ENV` to `production` and `staging` on the relevant environments.
 
 ## License
 
