@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.5 - Unreleased
+## 0.0.5 - 04/04/2019
 
 - Tweak the spacing of the right hand navigation on mobile
 - Tweak the spacing between page sections on the homepage
