@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Tweak the width of the hero on mobile and spacing below
 - Add promo to Homepage for blogs and updates promotion 
 - Populate the policies and key information and tools pages with descriptions and lead text
 - Set a base URL for the app for any assets that require a full path

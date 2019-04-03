@@ -46,13 +46,15 @@
  */
 
 .nhsx-u-hero-spacing {
-  padding-top: 80px;
+  padding-bottom: 20px;
+  padding-top: 88px;
 
-  @include mq($from: 380px) {
-    padding-top: 24px;
+  @include mq($from: 340px) {
+    padding-top: 32px;
   }
 
   @include mq($from: tablet) {
+    padding-bottom: 36px;
     padding-top: 96px;
   }
 }

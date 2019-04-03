@@ -3,8 +3,13 @@
    ========================================================================== */
 
 .nhsx-section {
-  padding-bottom: nhsuk-spacing(6);
-  padding-top: nhsuk-spacing(6);
+  padding-bottom: 48px;
+  padding-top: 48px;
+
+  @include mq($from: tablet) {
+    padding-bottom: 72px;
+    padding-top: 72px;
+  }
 }
 
 .nhsx-section--white {
