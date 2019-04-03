@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Build the assets before running in development mode
 - Add open graph meta data and image for social media cards
 - Tidy up SCSS code by separating into files and lint the code
 

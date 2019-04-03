@@ -17,6 +17,7 @@
     "postinstall": "npm run build",
     "start": "node app",
     "test": "npm run lint",
+    "prewatch": "npm run build:assets",
     "watch": "concurrently \"npm run watch:scss\" \"npm run watch:js\" \"npm start\"",
     "watch:scss": "npm run build:css -- -w",
     "watch:js": "webpack -w",
