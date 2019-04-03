@@ -66,6 +66,21 @@ npm run watch
 
 > The application will be available at [http://localhost:3000](http://localhost:3000).
 
+## Environment variables
+
+Environment variables are expected to be managed by the environment in which
+the application is being run.
+
+| Variable      | Description       | Default         | Required  |
+| ------------- | ----------------- | --------------          | --------- |
+| `GOOGLE_UA`      | Google analytics user account ID          |         | No
+| `COOKIE_CONSENT_URL`      | The URL for the [NHS.UK in-house implementation of cookie consent](https://github.com/nhsuk/cookie-consent)    | //assets.nhs.uk/scripts/cookie-consent.js |
+| `BASE_URL`      | Domain of the environment          |  https://nhsx.nhs.uk       |
+| `NODE_ENV`      | Node environment  |  development            |
+| `PORT`          | Server port       |  3000                   |
+
+We recommend setting the `NODE_ENV` to `production` and `staging` on the relevant environments.
+
 ## License
 
 The codebase is released under the MIT License, unless stated otherwise. This covers both the codebase and any sample code in the documentation.

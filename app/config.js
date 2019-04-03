@@ -13,11 +13,11 @@ module.exports = {
 
   // Google analytics
   analytics: {
-    googleUA: 'UA-137452494-1',
+    googleUA: process.env.GOOGLE_UA,
   },
 
   // Cookie consent banner
   cookies: {
-    scriptURL: '//assets.nhs.uk/scripts/cookie-consent.js',
+    scriptURL: process.env.COOKIE_CONSENT_URL || '//assets.nhs.uk/scripts/cookie-consent.js',
   },
 };

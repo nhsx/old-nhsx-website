@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Configure variables to be set with environment variables to avoid code changes
 - Content amendments across the website with newly signed off content
 - Content amendments to include health and social care
 - Tweak the width of the hero on mobile and spacing below
