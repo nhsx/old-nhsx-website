@@ -2,6 +2,7 @@
 
 ## 0.0.5 - Unreleased
 
+- Content amendments across the website with newly signed off content
 - Content amendments to include health and social care
 - Tweak the width of the hero on mobile and spacing below
 - Add promo to Homepage for blogs and updates promotion 
