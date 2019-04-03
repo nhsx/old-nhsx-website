@@ -1,0 +1,52 @@
+{% set pageTitle = "Blogs and updates" %}
+{% set pageDescription = "" %}
+
+{% extends 'includes/layout.njk' %}
+
+{% block outerBody %}
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+  <div class="nhsuk-width-container">
+    <ol class="nhsuk-breadcrumb__list">
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/">Home</a></li>
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/key-information-and-tools">Key information and tools</a></li>
+    </ol>
+    <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="/key-information-and-tools">Back to Key information and tools</a></p>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-two-thirds">
+
+    <h1>Blogs and updates</h1>
+
+  </div>
+</div>
+
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-two-thirds">
+
+    <ul>
+      <li><a href="https://digitalhealth.blog.gov.uk/">Digital health and social care blog</a> (GOV.UK)</li>
+      <li><a href="https://digital.nhs.uk/blog/transformation-blog">Digital transformation blog</a> (NHS Digital)</li>
+      <li><a href="https://healthtech.blog.gov.uk/">Technology in the NHS blog</a> (GOV.UK)</li>
+    </ul>
+
+  </div>
+
+  <div class="nhsuk-grid-column-one-third">
+
+    <div class="nhsx-u-border-top">
+      <h3>Key information and tools</h3>
+      <ul>
+        <li><a href="/key-information-and-tools/apps-and-tools">Apps and tools for patient care</a></li>
+        <li><a href="/key-information-and-tools/designing-and-building-products-and-services">Designing and building products and services</a></li>
+        <li><a href="/key-information-and-tools/policy-strategy-and-national-programmes">Policy, strategy and national programmes</a></li>
+        <li><a href="/key-information-and-tools/blogs-and-updates">Blogs and updates</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+{% endblock %}

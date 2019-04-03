@@ -21,7 +21,23 @@ router.get('/how-we-work', (req, res) => {
 });
 
 router.get('/key-information-and-tools', (req, res) => {
-  res.render('pages/key-information-and-tools');
+  res.render('pages/key-information-and-tools/index');
+});
+
+router.get('/key-information-and-tools/apps-and-tools', (req, res) => {
+  res.render('pages/key-information-and-tools/apps-and-tools');
+});
+
+router.get('/key-information-and-tools/designing-and-building-products-and-services', (req, res) => {
+  res.render('pages/key-information-and-tools/designing-and-building-products-and-services');
+});
+
+router.get('/key-information-and-tools/policy-strategy-and-national-programmes', (req, res) => {
+  res.render('pages/key-information-and-tools/policy-strategy-and-national-programmes');
+});
+
+router.get('/key-information-and-tools/blogs-and-updates', (req, res) => {
+  res.render('pages/key-information-and-tools/blogs-and-updates');
 });
 
 router.get('/get-involved', (req, res) => {
@@ -32,8 +48,8 @@ router.get('/our-policies', (req, res) => {
   res.render('pages/our-policies/index');
 });
 
-router.get('/our-policies/cookies', (req, res) => {
-  res.render('pages/our-policies/cookies');
+router.get('/our-policies/cookies-policy', (req, res) => {
+  res.render('pages/our-policies/cookies-policy');
 });
 
 router.get('/our-policies/cookie-declaration', (req, res) => {
@@ -54,6 +70,11 @@ router.get('/our-policies/accessibility', (req, res) => {
 
 router.get('/sitemap', (req, res) => {
   res.render('pages/sitemap');
+});
+
+router.use((req, res) => {
+  res.statusCode = 404;
+  res.render('pages/404');
 });
 
 module.exports = router;

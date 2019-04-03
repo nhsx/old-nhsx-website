@@ -32,8 +32,8 @@
 
     {%- if GOOGLE_UA %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_UA }}" type="text/javascript" data-cookieconsent="necessary" async></script>
-    <script>
+    <script src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_UA }}" type="text/plain" data-cookieconsent="statistics" async></script>
+    <script type="text/plain" data-cookieconsent="statistics">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
@@ -49,11 +49,13 @@
 
     {% block outerBody %}{% endblock %}
 
+    {% if pageLayout != 'Homepage' %}
     <div class="nhsuk-width-container">
       <main class="nhsuk-main-wrapper" id="maincontent">
         {% block body %}{% endblock %}
       </main>
     </div>
+    {% endif %}
 
     {% include 'includes/footer.njk' %}
   </body>

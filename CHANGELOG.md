@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.0.4 - 03/04/2019
+
+- Remove unused tests and dependencies
+- Fix issue with the cookie success banner link hover colour not being accessible
+- Combine the key documents page with the policy, strategy and national programmes page
+- Fix issue with Google analytics script not being classed as statistics type
+- Populate the cookie policy with cookies we use
+- Populate the accessibility statement with approved content
+- Use the correct URL for the cookies policy page
+- Use the approved Hero header image on the homepage
+- Fix invalid HTML and add cookie declaration to the sitemap
+- Create a 404 page with some basic content
+- Improve the README file with a description and contributing
+- Use the NHSX blue for the homepage hero background colour
+- Fix the spacing and sizing of typography and components on content pages
+- Embed videos within content pages, with responsive styling added
+- Add missing main element to the Homepage for the skip link component
+- Populate pages with approved content
+- Add placeholder Homepage sections for video and get involved
+- Use an improved SVG icon for the NHSX logo
+- Add hero and promo components with additional NHSX styling to the homepage
+- Use the correct CSS spelling color for the NHSX colour variables
+
 ## 0.0.3 - 02/04/2019
 
 - Fix issue on Internet Explorer with the NHSX logo being auto width
