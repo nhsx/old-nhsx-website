@@ -2,6 +2,8 @@
 
 ## 0.0.5 - 04/04/2019
 
+- Add if statement to prevent errors with missing variables
+- Add email address and further content amendments
 - Tweak the spacing of the right hand navigation on mobile
 - Tweak the spacing between page sections on the homepage
 - Streamline the documentation for running the application

@@ -31,7 +31,7 @@ the application is being run.
 | ------------- | ----------------- | --------------          | --------- |
 | `GOOGLE_UA`      | Google analytics user account ID          |         | No
 | `COOKIE_CONSENT_URL`      | The URL for the [NHS.UK in-house implementation of cookie consent](https://github.com/nhsuk/cookie-consent)    | //assets.nhs.uk/scripts/cookie-consent.js |
-| `BASE_URL`      | Domain of the environment          |  https://nhsx.nhs.uk       |
+| `BASE_URL`      | Domain of the environment          |         |
 | `NODE_ENV`      | Node environment. Recommend environments: `production`, `staging` and `development`  |  development            |
 | `PORT`          | Server port       |  3000                   |
 
