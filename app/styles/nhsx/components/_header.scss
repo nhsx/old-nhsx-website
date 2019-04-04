@@ -37,6 +37,11 @@
     @include mq($from: large-desktop) {
       background-color: $color_nhsuk-black;
     }
+
+  }
+
+  &:focus {
+    color: $color_nhsuk-white;
   }
 
   &:active {
