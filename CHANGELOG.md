@@ -2,6 +2,7 @@
 
 ## 0.0.6 - 04/04/2019
 
+- Tweak spacing below the video container on Homepage
 - Add OGL licence to the footer
 - Populated the terms and conditions page content
 - Populated the privacy policy page content
