@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.0.6 - 04/04/2019
+
+- Add OGL licence to the footer
+- Populated the terms and conditions page content
+- Populated the privacy policy page content
+- Added Matt Hancock video to homepage
+
 ## 0.0.5 - 04/04/2019
 
 - Fix issue with menu navigation item hover focus colour
