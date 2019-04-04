@@ -2,6 +2,7 @@
 
 ## 0.0.5 - 04/04/2019
 
+- Fix issue with menu navigation item hover focus colour
 - Add if statement to prevent errors with missing variables
 - Add email address and further content amendments
 - Tweak the spacing of the right hand navigation on mobile
