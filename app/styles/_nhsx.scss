@@ -1,201 +1,26 @@
-$color_nhsx-blue: #003087;
+/* ==========================================================================
+   NHSX website styles
+   ========================================================================== */
 
-// NHSX header
+/**
+ * NHSX uses some custom styles in addition to the
+ * NHS.UK frontend library.
+ *
+ * This also includes some hotfixes utilities for issues
+ * found in the NHS.UK frontend library.
+ */
 
-.nhsuk-header--nhsx {
-  background-color: $color_nhsx-blue;
-}
+// Core
+@import './nhsx/core/colours';
+@import './nhsx/core/page';
 
-@include mq($from: large-desktop) {
-  .nhsuk-header__navigation--nhsx {
-    background-color: $color_nhsx-blue;
-  }
-}
-
-.nhsuk-header__link--nhsx,
-.nhsuk-header__logo--nhsx .nhsuk-logo--nhsx {
-  width: 120px;
-}
-
-.nhsuk-header__menu-toggle--nhsx:hover,
-.nhsuk-header__menu-toggle--nhsx:active,
-.nhsuk-header__menu-toggle--nhsx.is-active {
-  background-color: $color_nhsuk-black;
-  color: $color_nhsuk-grey-5;
-}
-
-// NHSX navigation
-
-.nhsuk-header__navigation-link--nhsx:hover {
-  background-color: $color_nhsx-blue;
-}
-
-@include mq($from: large-desktop) {
-  .nhsuk-header__navigation-link--nhsx:hover {
-    background-color: $color_nhsuk-black;
-  }
-}
-
-.nhsuk-header__navigation-link--nhsx:active {
-  background-color: $color_nhsuk-black;
-  color: $color_nhsuk-grey-5;
-}
-
-// NHSX hero
-
-.nhsuk-hero--nhsx {
-  background-color: $color_nhsx-blue;
-
-  .nhsuk-hero-content--nhsx {
-    background-color: $color_nhsx-blue;
-
-    .nhsuk-hero__arrow--nhsx {
-      &:before,
-      &:after {
-        border: solid 32px $color_nhsx-blue;
-      }
-    }
-
-  }
-}
-
-// NHSX sections
-
-.nhsx-section {
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.nhsx-section--white {
-  background-color: $color_nhsuk-white;
-}
-
-// NHSX videos
-
-.nhsx-promo--grey,
-.nhsx-content--grey {
-  background-color: $color_nhsuk-grey-5;
-}
-
-.nhsx-promo--white,
-.nhsx-content--white {
-  background-color: $color_nhsuk-white;
-}
-
-.nhsx-embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
-}
-
-.nhsx-embed-container iframe {
-  border: 0;
-}
-
-.nhsx-embed-container iframe,
-.nhsx-embed-container object,
-.nhsx-embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-// NHSX responsive table
-
-@include mq($until: tablet) {
-  .nhsx-table-responsive--nhsx {
-    thead {
-      position: absolute;
-      overflow: hidden;
-      clip: rect(0 0 0 0);
-      height: 1px; width: 1px;
-      margin: -1px; padding: 0; border: 0;
-    }
-    tr {
-      border-bottom: solid 2px #d8dde0;
-      display: block;
-
-      &:last-child {
-        border-bottom: 0;
-      }
-    }
-    td {
-      border-bottom: 1px dotted #d8dde0;
-      display: block;
-      text-align: left;
-
-      &:last-child {
-        border-bottom: 0;
-      }
-
-      &::before {
-        content: attr(data-label);
-        display: block;
-        font-weight: bold;
-        padding-right: 20px;
-      }
-    }
-  }
-}
-
-// NHSX footer
-
-.nhsuk-footer--nhsx {
-  border-top: 4px solid $color_nhsx-blue;
-}
+// Components
+@import './nhsx/components/footer';
+@import './nhsx/components/header';
+@import './nhsx/components/hero';
+@import './nhsx/components/promo';
+@import './nhsx/components/tables';
+@import './nhsx/components/video';
 
 // Utilities
-
-.nhsx-u-border-top {
-  border-top: 2px solid $color_nhsx-blue;
-  margin-top: 8px;
-}
-
-.nhsx-u-border-top h3 {
-  margin-bottom: 16px;
-  margin-top: 16px;
-}
-
-.nhsx-u-border-top ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-// Issue with nested list margins
-.nhsx-u-nested-list {
-  margin-bottom: 0;
-}
-
-.nhsx-u-nested-list > li {
-  @include nhsuk-responsive-margin(2, 'top');
-}
-
-// Issue with spacing on the hero component
-.nhsx-u-hero-spacing {
-  padding-top: 80px;
-
-  @include mq($from: 380px) {
-    padding-top: 24px;
-  }
-
-  @include mq($from: tablet) {
-    padding-top: 96px;
-  }
-}
-
-// Issue with the cookie success banner link hover colour
-.nhsuk-success-banner {
-  a,
-  a:visited {
-    color: $color_nhsuk-white;
-  }
-
-  a:hover,
-  a:focus {
-    color: $color_nhsuk-black !important; // Important used to override cookie JavaScript
-  }
-}
+@import './nhsx/utilities';

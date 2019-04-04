@@ -1,0 +1,51 @@
+/* ==========================================================================
+   #HEADER
+   ========================================================================== */
+
+.nhsuk-header--nhsx {
+  background-color: $color_nhsx-blue;
+}
+
+@include mq($from: large-desktop) {
+  .nhsuk-header__navigation--nhsx {
+    background-color: $color_nhsx-blue;
+  }
+}
+
+.nhsuk-header__link--nhsx,
+.nhsuk-header__logo--nhsx .nhsuk-logo--nhsx {
+  width: 120px;
+}
+
+.nhsuk-header__menu-toggle--nhsx {
+  &:hover,
+  &:active,
+  .is-active {
+    background-color: $color_nhsuk-black;
+    color: $color_nhsuk-grey-5;
+  }
+}
+
+/* ==========================================================================
+   #NAVIGATION
+   ========================================================================== */
+
+.nhsuk-header__navigation-link--nhsx {
+  &:hover {
+    background-color: $color_nhsx-blue;
+
+    @include mq($from: large-desktop) {
+      background-color: $color_nhsuk-black;
+    }
+
+  }
+
+  &:focus {
+    color: $color_nhsuk-white;
+  }
+
+  &:active {
+    background-color: $color_nhsuk-black;
+    color: $color_nhsuk-grey-5;
+  }
+}

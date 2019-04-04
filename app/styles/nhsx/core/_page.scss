@@ -1,0 +1,17 @@
+/* ==========================================================================
+   #PAGE
+   ========================================================================== */
+
+.nhsx-section {
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  @include mq($from: tablet) {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+}
+
+.nhsx-section--white {
+  background-color: $color_nhsuk-white;
+}

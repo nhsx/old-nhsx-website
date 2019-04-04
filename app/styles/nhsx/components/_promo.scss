@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #PROMO
+   ========================================================================== */
+
+.nhsx-promo--grey,
+.nhsx-content--grey {
+  background-color: $color_nhsuk-grey-5;
+}
+
+.nhsx-promo--white,
+.nhsx-content--white {
+  background-color: $color_nhsuk-white;
+}
+
+.nhsx-promo--homepage-video {
+  @include mq($from: tablet) {
+    margin-bottom: 0;
+  }
+}

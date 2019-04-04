@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="{% if pageDescription %}{{pageDescription}}{% else %}NHSX - a new unit driving forward the digital transformation of health and care.{% endif %}">
 
-    <title>{% if pageTitle %}{{pageTitle}} - NHSX{% else %}NHSX{% endif %}</title>
+    <title>{% if pageTitle %}{{ pageTitle }} - NHSX{% else %}NHSX{% endif %}</title>
 
     <link rel="stylesheet" href="/css/main.min.css">
 
@@ -41,6 +41,19 @@
     gtag('config', '{{ GOOGLE_UA }}');
     </script>
     {% endif %}
+
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://www.nhs.uk/"/>
+    <meta property="og:site_name" content="nhs.uk"/>
+    <meta property="og:title" content="{% if pageTitle %}{{ pageTitle }} - NHSX{% else %}NHSX{% endif %}"/>
+    <meta property="og:description" content="{% if pageDescription %}{{pageDescription}}{% else %}NHSX - a new unit driving forward the digital transformation of health and care.{% endif %}"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:locale" content="en_GB"/>
+    <meta property="og:image" content="{% if BASE_URL %}{{ BASE_URL }}{% endif %}/assets/open-graph.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nhsx" />
+    <meta name="twitter:creator" content="@nhsx" />
   </head>
   <body>
     <a class="nhsuk-skip-link" href="#maincontent">Skip to main content</a>

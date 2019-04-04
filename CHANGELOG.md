@@ -1,5 +1,25 @@
 # Changelog
 
+## 0.0.5 - 04/04/2019
+
+- Fix issue with menu navigation item hover focus colour
+- Add if statement to prevent errors with missing variables
+- Add email address and further content amendments
+- Tweak the spacing of the right hand navigation on mobile
+- Tweak the spacing between page sections on the homepage
+- Streamline the documentation for running the application
+- Configure variables to be set with environment variables to avoid code changes
+- Content amendments across the website with newly signed off content
+- Content amendments to include health and social care
+- Tweak the width of the hero on mobile and spacing below
+- Add promo to Homepage for blogs and updates promotion 
+- Populate the policies and key information and tools pages with descriptions and lead text
+- Set a base URL for the app for any assets that require a full path
+- Update the hero header image to the final version
+- Build the assets before running in development mode
+- Add open graph meta data and image for social media cards
+- Tidy up SCSS code by separating into files and lint the code
+
 ## 0.0.4 - 03/04/2019
 
 - Remove unused tests and dependencies

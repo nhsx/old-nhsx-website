@@ -5,16 +5,19 @@ module.exports = {
   // Environment
   env: process.env.NODE_ENV || 'development',
 
+  // Base URL
+  baseURL: process.env.BASE_URL || 'https://nhsx.nhs.uk',
+
   // Port to run local development server on
   port: process.env.PORT || 3000,
 
   // Google analytics
   analytics: {
-    googleUA: 'UA-137452494-1',
+    googleUA: process.env.GOOGLE_UA,
   },
 
   // Cookie consent banner
   cookies: {
-    scriptURL: '//assets.nhs.uk/scripts/cookie-consent.js',
+    scriptURL: process.env.COOKIE_CONSENT_URL || '//assets.nhs.uk/scripts/cookie-consent.js',
   },
 };
