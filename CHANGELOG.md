@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0 - 04/04/2019
+
+:rocket: Release of the NHSX website (https://nhsx.nhs.uk)
+
 ## 0.0.6 - 04/04/2019
 
 - Document the default `BASE_URL` environment variable
