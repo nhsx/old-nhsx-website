@@ -13,7 +13,7 @@
 }
 
 .nhsx-promo--homepage-video {
-  @include mq($from: tablet) {
+  @include mq($from: desktop) {
     margin-bottom: 0;
   }
 }
