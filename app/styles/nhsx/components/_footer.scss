@@ -3,5 +3,24 @@
    ========================================================================== */
 
 .nhsuk-footer--nhsx {
+  @include nhsuk-responsive-padding(4, bottom);
+
   border-top: 4px solid $color_nhsx-blue;
+}
+
+.nhsx-footer-ogl {
+  background-color: $color_nhsuk-grey-4;
+}
+
+.nhsx-footer-ogl__text {
+  @include nhsuk-font(16);
+  color: $color_nhsuk-grey-1;
+  margin-bottom: 0;
+  padding-bottom: nhsuk-spacing(4);
+
+  svg {
+    margin-right: nhsuk-spacing(2);
+    position: relative;
+    top: 2px;
+  }
 }
