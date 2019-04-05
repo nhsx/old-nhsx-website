@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.1 - Unreleased
+## 1.0.1 - 05/04/2019
 
 - Reorder the asset `preconnect` and remove unneeded `dns-prefetch` ([Issue 9](https://github.com/nhsx/nhsx-website/issues/9))
 - Terms and conditions content amendments
