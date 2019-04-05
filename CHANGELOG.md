@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.1 - 05/04/2019
+
+- Reorder the asset `preconnect` and remove unneeded `dns-prefetch` ([Issue 9](https://github.com/nhsx/nhsx-website/issues/9))
+- Terms and conditions content amendments
+- Update the default `BASE_URL` to include `www`
+- Added simple Web App Manifest file
+- Who we are content amendments
+
 ## 1.0.0 - 04/04/2019
 
 :rocket: Release of the NHSX website (https://nhsx.nhs.uk)

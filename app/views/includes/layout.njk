@@ -14,12 +14,15 @@
 
     <script src="/js/main.bundle.min.js" defer></script>
 
+    <link href="https://www.nhs.uk/" rel="preconnect">
+    <link href="https://assets.nhs.uk/" rel="preconnect" crossorigin>
+    <link href="https://www.googletagmanager.com" rel="preconnect">
+    <link href="https://www.google-analytics.com" rel="preconnect">
+
     <link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-55Roman.woff2" rel="preload" as="font" crossorigin>
     <link type="font/woff2" href="https://assets.nhs.uk/fonts/FrutigerLTW01-65Bold.woff2" rel="preload" as="font" crossorigin>
-    <link href="https://www.nhs.uk/" rel="preconnect  dns-prefetch">
-    <link href="https://assets.nhs.uk/" rel="preconnect  dns-prefetch" crossorigin>
-    <link href="https://www.googletagmanager.com" rel="preconnect  dns-prefetch">
-    <link href="https://www.google-analytics.com" rel="preconnect  dns-prefetch">
+
+    <link rel="manifest" href="/manifest.json">
 
     <!--[if IE]><link rel="shortcut icon" href="/nhsuk-frontend/assets/favicons/favicon.ico"><![endif]-->
     <link rel="apple-touch-icon" href="/nhsuk-frontend/assets/favicons/apple-touch-icon.png">
@@ -43,7 +46,7 @@
     {% endif %}
 
     <!-- Open Graph -->
-    <meta property="og:url" content="https://www.nhs.uk/"/>
+    <meta property="og:url" content="https://www.nhsx.nhs.uk/"/>
     <meta property="og:site_name" content="nhs.uk"/>
     <meta property="og:title" content="{% if pageTitle %}{{ pageTitle }} - NHSX{% else %}NHSX{% endif %}"/>
     <meta property="og:description" content="{% if pageDescription %}{{pageDescription}}{% else %}NHSX - a new unit driving forward the digital transformation of health and care.{% endif %}"/>
