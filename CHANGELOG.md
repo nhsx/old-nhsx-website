@@ -4,8 +4,9 @@
 
 - Reorder the asset `preconnect` and remove unneeded `dns-prefetch` ([Issue 9](https://github.com/nhsx/nhsx-website/issues/9))
 - Terms and conditions content amendments
-- Update the default `BASE_URL` to include www.
+- Update the default `BASE_URL` to include `www`
 - Added simple Web App Manifest file
+- Who we are content amendments
 
 ## 1.0.0 - 04/04/2019
 
