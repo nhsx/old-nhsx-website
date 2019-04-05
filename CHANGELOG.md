@@ -1,7 +1,8 @@
 # Changelog
 
-## 1.0.1 - 05/04/2019
+## 1.0.1 - Unreleased
 
+- Terms and conditions content amendments
 - Update the default `BASE_URL` to include www.
 
 ## 1.0.0 - 04/04/2019
