@@ -72,6 +72,11 @@ router.get('/sitemap', (req, res) => {
   res.render('pages/sitemap');
 });
 
+router.get('/manifest.json', (req, res) => {
+  res.set({ 'Content-Type': 'application/json' });
+  res.render('manifest');
+});
+
 router.use((req, res) => {
   res.statusCode = 404;
   res.render('pages/404');
