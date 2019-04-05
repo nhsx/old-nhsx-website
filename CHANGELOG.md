@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1 - 05/04/2019
+
+- Update the default `BASE_URL` to include www.
+
 ## 1.0.0 - 04/04/2019
 
 :rocket: Release of the NHSX website (https://nhsx.nhs.uk)
