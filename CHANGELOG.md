@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2 - Unreleased
+
+- Update package dependencies including latest version (2.1.0) of the NHS.UK frontend
+
 ## 1.0.1 - 05/04/2019
 
 - Reorder the asset `preconnect` and remove unneeded `dns-prefetch` ([Issue 9](https://github.com/nhsx/nhsx-website/issues/9))
