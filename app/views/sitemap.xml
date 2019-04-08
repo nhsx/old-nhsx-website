@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.nhsx.nhs.uk/</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/who-we-are</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/what-we-do</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/how-we-work</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/key-information-and-tools</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/get-involved</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/key-information-and-tools/blogs-and-updates</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/our-policies/accessibility</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/our-policies/cookies-policy</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/our-policies/privacy-policy</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/sitemap</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/our-policies/terms-and-conditions</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/key-information-and-tools/policy-strategy-and-national-programmes</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/key-information-and-tools/apps-and-tools</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/key-information-and-tools/designing-and-building-products-and-services</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/our-policies</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.nhsx.nhs.uk/our-policies/cookie-declaration</loc>
+  <lastmod>2019-04-08T15:12:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
