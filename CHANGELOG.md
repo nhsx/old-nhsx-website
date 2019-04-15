@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.2 - Unreleased
+## 1.0.2 - 15/04/2019
 
 - Update package dependencies including latest version (2.1.0) of the NHS.UK frontend
 - Add robots.txt and sitemap.xml ([Issue 14](https://github.com/nhsx/nhsx-website/issues/14))
