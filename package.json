@@ -1,6 +1,6 @@
 {
   "name": "nhsx-website",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "The NHSX website",
   "main": "app.js",
   "scripts": {
@@ -36,17 +36,17 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.4.0",
-    "@babel/preset-env": "^7.4.2",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
     "babel-loader": "^8.0.5",
     "browser-sync": "^2.26.3",
     "concurrently": "^4.1.0",
     "copyfiles": "^2.1.0",
-    "eslint": "^5.15.3",
+    "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-config-nhsuk": "^0.16.0",
     "eslint-plugin-import": "^2.16.0",
-    "nhsuk-frontend": "^2.0.0",
+    "nhsuk-frontend": "^2.1.0",
     "node-sass": "^4.11.0",
     "sass-lint": "^1.12.1",
     "webpack": "^4.29.6",
