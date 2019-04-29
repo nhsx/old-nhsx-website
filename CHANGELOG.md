@@ -4,6 +4,7 @@
 
 - Amend heading structure on various pages so there is no jumping from a H1 to a H3
 - Add title attribute to iframe video on the homepage
+- Selectively import NHS.UK frontend component scss files to reduce the compiled CSS file size
 
 ## 1.0.2 - 15/04/2019
 
