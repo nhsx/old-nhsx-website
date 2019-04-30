@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.3 - TBC
+## 1.0.3 - 30/04/2019
 
 - Amend heading structure on various pages so there is no jumping from a H1 to a H3
 - Add title attribute to iframe video on the homepage
