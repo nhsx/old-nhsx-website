@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0 - 08/05/2019
+
+- Add content for the NHSX survey on AI in health and care to the designing and building products and services page 
+- Update package dependencies to latest versions
+
 ## 1.0.3 - 30/04/2019
 
 - Amend heading structure on various pages so there is no jumping from a H1 to a H3
