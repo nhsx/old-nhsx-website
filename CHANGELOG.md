@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.1 - 17/05/2019
+
+- Update NHSX survey on AI in health and care link text
+
 ## 1.1.0 - 08/05/2019
 
 - Add content for the NHSX survey on AI in health and care to the designing and building products and services page 
