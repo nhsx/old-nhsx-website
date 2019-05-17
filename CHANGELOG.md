@@ -3,6 +3,7 @@
 ## 1.1.1 - 17/05/2019
 
 - Update NHSX survey on AI in health and care link text
+- Update package dependency lock file to fix outdated dependencies
 
 ## 1.1.0 - 08/05/2019
 
