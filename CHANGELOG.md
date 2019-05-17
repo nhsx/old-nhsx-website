@@ -4,6 +4,7 @@
 
 - Update NHSX survey on AI in health and care link text
 - Update package dependency lock file to fix outdated dependencies
+- Remove innovation and genomics from the teams joining NHSX list
 
 ## 1.1.0 - 08/05/2019
 
