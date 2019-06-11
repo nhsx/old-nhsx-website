@@ -1,18 +1,5 @@
 // NHS.UK frontend
-@import 'node_modules/nhsuk-frontend/packages/core/all';
-
-@import 'node_modules/nhsuk-frontend/packages/components/breadcrumb/breadcrumb';
-@import 'node_modules/nhsuk-frontend/packages/components/button/button';
-@import 'node_modules/nhsuk-frontend/packages/components/fieldset/fieldset';
-@import 'node_modules/nhsuk-frontend/packages/components/footer/footer';
-@import 'node_modules/nhsuk-frontend/packages/components/header/header';
-@import 'node_modules/nhsuk-frontend/packages/components/hero/hero';
-@import 'node_modules/nhsuk-frontend/packages/components/input/input';
-@import 'node_modules/nhsuk-frontend/packages/components/label/label';
-@import 'node_modules/nhsuk-frontend/packages/components/panel/panel';
-@import 'node_modules/nhsuk-frontend/packages/components/promo/promo';
-@import 'node_modules/nhsuk-frontend/packages/components/radios/radios';
-@import 'node_modules/nhsuk-frontend/packages/components/skip-link/skip-link';
+@import 'node_modules/nhsuk-frontend/packages/nhsuk';
 
 // NHSX website styles
 @import 'nhsx';
