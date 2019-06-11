@@ -3,6 +3,7 @@
 ## 1.1.2 - Unreleased
 
 - Import all the NHS.UK frontend library components for future development
+- Update package dependencies to latest versions
 
 ## 1.1.1 - 17/05/2019
 
