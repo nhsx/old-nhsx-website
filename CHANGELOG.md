@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2 - Unreleased
+
+- Import all the NHS.UK frontend library components for future development
+
 ## 1.1.1 - 17/05/2019
 
 - Update NHSX survey on AI in health and care link text
