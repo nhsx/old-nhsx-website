@@ -1,10 +1,11 @@
 # Changelog
 
-## 1.1.2 - Unreleased
+## 1.1.2 - 12/06/2019
 
 - Import all the NHS.UK frontend library components for future development
 - Update package dependencies to latest versions
 - Changed title and description of eRedbook to digital red books
+- Add code of conduct and contributing guidelines documentation
 
 ## 1.1.1 - 17/05/2019
 
