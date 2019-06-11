@@ -4,6 +4,7 @@
 
 - Import all the NHS.UK frontend library components for future development
 - Update package dependencies to latest versions
+- Changed title and description of eRedbook to digital red books
 
 ## 1.1.1 - 17/05/2019
 
