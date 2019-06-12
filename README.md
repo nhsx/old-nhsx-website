@@ -22,6 +22,8 @@ Run the project in development mode `npm run watch` and visit <a href="http://lo
 
 The code for the NHSX website is in the open and we encourage contributions. So if you come across a bug or a spelling mistake, feel free to open a pull request with your changes or you can open a GitHub issue to report it to us.
 
+Read our [contributing guidelines](CONTRIBUTING.md) for more information about contributing to the NHSX website.
+
 ## Environment variables
 
 Environment variables are expected to be managed by the environment in which
