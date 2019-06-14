@@ -6,6 +6,7 @@
 - Changed cookie policy page to keep same url when settings save and confirmation banner shows
 - Remove hotfix styles for the cookie banner link hover
 - Update package dependencies to latest versions
+- Use YouTubes privacy-enhanced mode to stop YouTube setting cookies on the website
 
 ## 1.1.2 - 12/06/2019
 
