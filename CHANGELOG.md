@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0 - Unreleased
+## 2.0.0 - 17/06/2019
 
 - Changed cookie policy page rules to only accept cookies when settings are changed and saved
 - Changed cookie policy page to keep same url when settings save and confirmation banner shows
