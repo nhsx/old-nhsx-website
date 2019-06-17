@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1 - 17/06/2019
+
+- Self host the cookie consent solution ([Issue 38](https://github.com/nhsx/nhsx-website/issues/38))
+
 ## 2.0.0 - 17/06/2019
 
 - Changed cookie policy page rules to only accept cookies when settings are changed and saved

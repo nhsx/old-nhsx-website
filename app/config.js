@@ -18,6 +18,6 @@ module.exports = {
 
   // Cookie consent banner
   cookies: {
-    scriptURL: process.env.COOKIE_CONSENT_URL || '//assets.nhs.uk/scripts/cookie-consent.js',
+    scriptURL: process.env.COOKIE_CONSENT_URL || '/js/cookies.min.js',
   },
 };

@@ -1,7 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './app/scripts/main.js',
+  entry: {
+    cookies: './app/scripts/cookie-consent.js',
+    main: './app/scripts/main.js',
+  },
   mode: 'production',
   module: {
     rules: [{
@@ -15,7 +18,7 @@ module.exports = {
     }],
   },
   output: {
-    filename: 'main.bundle.min.js',
+    filename: '[name].min.js',
     path: path.resolve(__dirname, 'public/js/'),
   },
   watchOptions: {
