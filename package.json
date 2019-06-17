@@ -18,7 +18,7 @@
     "start": "node app",
     "test": "npm run lint",
     "watch": "concurrently \"npm run watch:scss\" \"npm run watch:js\" \"npm run watch:assets\" \"npm start\"",
-    "watch:scss": "npm run build:css -- -w",
+    "watch:scss": "npm run build:css && npm run build:css -- -w",
     "watch:js": "webpack -w",
     "watch:assets": "cpx 'app/assets/*' public/assets/ --watch",
     "webpack": "webpack"
