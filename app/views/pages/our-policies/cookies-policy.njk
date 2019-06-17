@@ -99,20 +99,19 @@
         function changeConsent() {
           NHSCookieConsent.setPreferences(document.getElementById("input-preferences-1").checked);
           NHSCookieConsent.setStatistics(document.getElementById("input-statistics-1").checked);
-          if(typeof NHSCookieConsent.setConsented === "function") {
-            NHSCookieConsent.setConsented(true);
-          }
         }
 
         function reloadPage() {
-          document.cookie = "settings-confirmation-banner=true";
-          document.location.reload();
-          window.scrollTo(0, 0);
+          if(document.location.search === "?cookie-changed=1") {
+            document.location.reload();
+          } else {
+            document.location.search = "?cookie-changed=1";
+          }
         }
 
         function loadSuccessBanner() {
           var url = window.location.href;
-          if (document.cookie.indexOf("settings-confirmation-banner=") >= 0) {
+          if (url.indexOf('cookie-changed=1') > 0) {
             var html = "<div id='nhsuk-cookie-confirmation-banner' role='banner'>" +
               "<div class='nhsuk-width-container'>" +
               "<p>Your cookie settings have been saved.</p>" +
@@ -132,7 +131,6 @@
             var div = document.createElement('div');
             div.innerHTML = html;
             document.body.insertBefore(div, document.body.firstChild);
-            document.cookie = "settings-confirmation-banner=false ; expires = Thu, 01 Jan 1970 00:00:00 GMT";
           }
         }
       </script>
