@@ -105,14 +105,14 @@
         }
 
         function reloadPage() {
-          NHSCookieConsent.setConfirmation(true);
+          document.cookie = "settings-confirmation-banner=true";
           document.location.reload();
           window.scrollTo(0, 0);
         }
 
         function loadSuccessBanner() {
           var url = window.location.href;
-          if (NHSCookieConsent.getConfirmation() === true) {
+          if (document.cookie.indexOf("settings-confirmation-banner=") >= 0) {
             var html = "<div id='nhsuk-cookie-confirmation-banner' role='banner'>" +
               "<div class='nhsuk-width-container'>" +
               "<p>Your cookie settings have been saved.</p>" +
@@ -132,7 +132,7 @@
             var div = document.createElement('div');
             div.innerHTML = html;
             document.body.insertBefore(div, document.body.firstChild);
-            NHSCookieConsent.setConfirmation(false);
+            document.cookie = "settings-confirmation-banner=false ; expires = Thu, 01 Jan 1970 00:00:00 GMT";
           }
         }
       </script>
