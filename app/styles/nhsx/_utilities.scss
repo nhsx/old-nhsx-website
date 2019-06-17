@@ -62,3 +62,20 @@
     padding-top: 96px;
   }
 }
+
+/**
+ * Hotfix for an issue with cookie banner link hover
+ * colours in the NHS.UK cookie consent
+ */
+
+.nhsuk-success-banner {
+  a,
+  a:visited {
+    color: $color_nhsuk-white;
+  }
+
+  a:hover,
+  a:focus {
+    color: $color_nhsuk-black !important; // Important used to override cookie JavaScript
+  }
+}
