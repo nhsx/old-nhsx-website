@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.0 - 17/06/2019
+
+- Changed cookie policy page rules to only accept cookies when settings are changed and saved
+- Changed cookie policy page to keep same url when settings save and confirmation banner shows
+- Update package dependencies to latest versions
+- Use YouTubes privacy-enhanced mode to stop YouTube setting cookies on the website
+
 ## 1.1.2 - 12/06/2019
 
 - Import all the NHS.UK frontend library components for future development
