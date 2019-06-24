@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.0.2 - 24/06/2019
+
+- Update to NHS.UK frontend v2.2.0 and use the new favicons
+- Update package dependencies to latest versions
+
 ## 2.0.1 - 17/06/2019
 
 - Self host the cookie consent solution ([Issue 38](https://github.com/nhsx/nhsx-website/issues/38))
