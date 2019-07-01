@@ -3,6 +3,7 @@
 ## 2.0.2 - 01/07/2019
 
 - Content updates across the website for the 1st July launch
+- Use correct value for the manifest display property
 - Update to NHS.UK frontend v2.2.0 and use the new favicons
 - Update package dependencies to latest versions
 
