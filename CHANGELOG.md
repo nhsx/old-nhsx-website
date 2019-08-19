@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.0.3 - 19/08/2019
+
+- Add content to support new information governance survey
+- Updated the leadership team content
+- Update package dependencies to latest versions
+
 ## 2.0.2 - 01/07/2019
 
 - Content updates across the website for the 1st July launch
