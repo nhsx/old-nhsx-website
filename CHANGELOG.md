@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.4 - Unreleased
+
+- Use the latest version of the NHS.UK frontend library (v2.3.1)
+
 ## 2.0.3 - 19/08/2019
 
 - Add content to support new information governance survey
