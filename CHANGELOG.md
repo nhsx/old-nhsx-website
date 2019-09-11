@@ -3,6 +3,7 @@
 ## 2.0.4 - Unreleased
 
 - Use the latest version of the NHS.UK frontend library (v2.3.1)
+- Update package dependencies to latest versions
 
 ## 2.0.3 - 19/08/2019
 
