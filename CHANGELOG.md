@@ -6,6 +6,7 @@
 - Update package dependencies to latest versions
 - Anonymize IP addresses in Google Analytics
 - Implement the latest version of the cookie consent solution
+- Remove bottom margin on the hero heading
 
 ## 2.0.3 - 19/08/2019
 
