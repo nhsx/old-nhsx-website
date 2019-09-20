@@ -26,13 +26,10 @@
 
     <div class="nhsuk-panel nhsuk-u-padding-bottom-1">
       <div class="nhsuk-form-group nhsuk-u-margin-bottom-0">
-
         <fieldset class="nhsuk-fieldset" id="cookie-preferences-form" aria-describedby="cookie-preferences">
-
           <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-            Turn cookies on or off
+            <h2 class="nhsuk-fieldset__heading">Turn cookies on or off</h2>
           </legend>
-
           <p id="cookie-preferences">We use 3 main types of cookie on our website. You can choose which cookies you're happy for us to use.</p>
 
           <h3>Cookies needed for the website to work</h3>
@@ -45,13 +42,14 @@
             <div class="nhsuk-radios__item">
               <input class="nhsuk-radios__input" id="input-preferences-1" name="input-preferences" type="radio" value="on">
               <label class="nhsuk-label nhsuk-radios__label" for="input-preferences-1">
-              On
+                On
               </label>
             </div>
+
             <div class="nhsuk-radios__item">
               <input class="nhsuk-radios__input" id="input-preferences-2" name="input-preferences" type="radio" value="yes">
               <label class="nhsuk-label nhsuk-radios__label" for="input-preferences-2">
-              Off
+                Off
               </label>
             </div>
           </div>
@@ -63,78 +61,77 @@
             <div class="nhsuk-radios__item">
               <input class="nhsuk-radios__input" id="input-statistics-1" name="input-statistics" type="radio" value="on">
               <label class="nhsuk-label nhsuk-radios__label" for="input-statistics-1">
-              On
+                On
               </label>
             </div>
+
             <div class="nhsuk-radios__item">
               <input class="nhsuk-radios__input" id="input-statistics-2" name="input-statistics" type="radio" value="yes">
               <label class="nhsuk-label nhsuk-radios__label" for="input-statistics-2">
-              Off
+                Off
               </label>
             </div>
           </div>
-
         </fieldset>
-
         <button onclick="changeConsent(); reloadPage();" type="submit" class="nhsuk-button">
-          Save my settings
+            Save my settings
         </button>
-
-        <p><a href="/our-policies/cookie-declaration">More details about our cookies</a></p>
-
+        <p><a href="/our-policies//cookie-declaration/">More details about our cookies</a></p>
       </div>
+        <script>
+            // function to check the checkboxes based on status of cookie preferences
+            window.addEventListener("load", function checkCookie() {
+                loadSuccessBanner();
+                document.getElementById("input-preferences-1").checked = NHSCookieConsent.getPreferences();
+                document.getElementById("input-preferences-2").checked = !NHSCookieConsent.getPreferences();
 
-      <script>
-        // function to check the checkboxes based on status of cookie preferences
-        window.addEventListener("load", function checkCookie() {
-            loadSuccessBanner();
-            document.getElementById("input-preferences-1").checked = NHSCookieConsent.getPreferences();
-            document.getElementById("input-preferences-2").checked = !NHSCookieConsent.getPreferences();
+                document.getElementById("input-statistics-1").checked = NHSCookieConsent.getStatistics();
+                document.getElementById("input-statistics-2").checked = !NHSCookieConsent.getStatistics();
+            });
 
-            document.getElementById("input-statistics-1").checked = NHSCookieConsent.getStatistics();
-            document.getElementById("input-statistics-2").checked = !NHSCookieConsent.getStatistics();
-        });
+            // function to edit consent preferences based on check box input
+            function changeConsent() {
+              NHSCookieConsent.setPreferences(document.getElementById("input-preferences-1").checked);
+              NHSCookieConsent.setStatistics(document.getElementById("input-statistics-1").checked);
+              if(typeof NHSCookieConsent.setConsented === "function") {
+                NHSCookieConsent.setConsented(true);
+              }
+            }
 
-        // function to edit consent preferences based on check box input
-        function changeConsent() {
-          NHSCookieConsent.setPreferences(document.getElementById("input-preferences-1").checked);
-          NHSCookieConsent.setStatistics(document.getElementById("input-statistics-1").checked);
-        }
+            function reloadPage() {
+              document.cookie = "settings-confirmation-banner=true";
+              document.location.reload();
+              window.scrollTo(0, 0);
+            }
 
-        function reloadPage() {
-          if(document.location.search === "?cookie-changed=1") {
-            document.location.reload();
-          } else {
-            document.location.search = "?cookie-changed=1";
-          }
-        }
+            function loadSuccessBanner() {
+              var url = window.location.href;
+              if (document.cookie.indexOf("settings-confirmation-banner=") >= 0) {
+                var html = "<div id='nhsuk-cookie-confirmation-banner' role='banner'>" +
+                  "<div class='nhsuk-width-container'>" +
+                  "<p>Your cookie settings have been saved.</p>" +
+                  "</div>" +
+                  "</div>" +
+                  "<style>" +
+                  "  #nhsuk-cookie-confirmation-banner {" +
+                                "background-color: #007f3b;" +
+                                "color: #fff;" +
+                                "padding: 8px 0 8px 0;" +
+                                "position: relative;" +
+                              "}" +
+                              "#nhsuk-cookie-confirmation-banner p {" +
+                                "margin: 0;" +
+                              "}" +
+                              "</style>";
+                var div = document.createElement('div');
+                div.innerHTML = html;
+                document.body.insertBefore(div, document.body.firstChild);
+                document.cookie = "settings-confirmation-banner=false ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
+              }
+            }
 
-        function loadSuccessBanner() {
-          var url = window.location.href;
-          if (url.indexOf('cookie-changed=1') > 0) {
-            var html = "<div id='nhsuk-cookie-confirmation-banner' role='banner'>" +
-              "<div class='nhsuk-width-container'>" +
-              "<p>Your cookie settings have been saved.</p>" +
-              "</div>" +
-              "</div>" +
-              "<style>" +
-              "  #nhsuk-cookie-confirmation-banner {" +
-                            "background-color: #007f3b;" +
-                            "color: #fff;" +
-                            "padding: 8px 0 8px 0;" +
-                            "position: relative;" +
-                          "}" +
-                          "#nhsuk-cookie-confirmation-banner p {" +
-                            "margin: 0;" +
-                          "}" +
-                          "</style>";
-            var div = document.createElement('div');
-            div.innerHTML = html;
-            document.body.insertBefore(div, document.body.firstChild);
-          }
-        }
-      </script>
-    </div>
+        </script>
+      </div>
 
   </div>
 </div>
