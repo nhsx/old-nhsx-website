@@ -11,11 +11,6 @@ module.exports = {
   // Port to run local development server on
   port: process.env.PORT || 3000,
 
-  // Google analytics
-  analytics: {
-    googleUA: process.env.GOOGLE_UA,
-  },
-
   // Cookie consent banner
   cookies: {
     scriptURL: process.env.COOKIE_CONSENT_URL || '/js/cookies.min.js',

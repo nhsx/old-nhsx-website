@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.0.4 - Unreleased
+
+- Use the latest version of the NHS.UK frontend library (v2.3.1)
+- Update package dependencies to latest versions
+- Anonymize IP addresses in Google Analytics
+- Implement the latest version of the cookie consent solution
+- Remove bottom margin on the hero heading
+
 ## 2.0.3 - 19/08/2019
 
 - Add content to support new information governance survey

@@ -35,22 +35,18 @@
     <meta name="msapplication-wide310x150logo" content="/nhsuk-frontend/assets/favicons/widetile-310x150.png">
     <meta name="msapplication-square310x310logo" content="/nhsuk-frontend/assets/favicons/largetile-310x310.png">
 
-    {%- if COOKIE_CONSENT_URL %}
     <!-- Cookie consent banner -->
-    <script src="{{ COOKIE_CONSENT_URL }}" type="text/javascript" data-cookieconsent="necessary" async></script>
-    {% endif %}
+    <script src="{{ COOKIE_CONSENT_URL }}" type="text/javascript"></script>
 
-    {%- if GOOGLE_UA %}
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script src="https://www.googletagmanager.com/gtag/js?id={{ GOOGLE_UA }}" type="text/plain" data-cookieconsent="statistics" async></script>
-    <script type="text/plain" data-cookieconsent="statistics">
+    <script src="https://www.googletagmanager.com/gtag/js?id=UA-137452494-1" data-cookieconsent="statistics" type="text/plain" async></script>
+    <script data-cookieconsent="statistics" type="text/plain">
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', '{{ GOOGLE_UA }}');
+    gtag('config', 'UA-137452494-1', { 'anonymize_ip': true });
     </script>
-    {% endif %}
 
     <!-- Open Graph -->
     <meta property="og:url" content="https://www.nhsx.nhs.uk/"/>
