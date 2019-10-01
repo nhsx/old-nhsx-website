@@ -3,6 +3,7 @@
 ## 2.1.0 - TBC
 
 - New content for Data-driven health and care technology and Artificial Intelligence
+- Update package dependencies to latest versions
 
 ## 2.0.5 - 15/10/2019
 
