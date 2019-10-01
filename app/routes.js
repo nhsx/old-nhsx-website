@@ -40,6 +40,10 @@ router.get('/key-information-and-tools/blogs-and-updates', (req, res) => {
   res.render('pages/key-information-and-tools/blogs-and-updates');
 });
 
+router.get('/key-information-and-tools/data-driven-health-and-care-technology', (req, res) => {
+  res.render('pages/key-information-and-tools/data-driven-health-and-care-technology');
+});
+
 router.get('/get-involved', (req, res) => {
   res.render('pages/get-involved');
 });

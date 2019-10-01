@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0 - TBC
+
+- New content for Data-driven health and care technology and Artificial Intelligence
+
 ## 2.0.5 - 15/10/2019
 
 - Content updates to "get involved" and "Apps and tools for patient care"
