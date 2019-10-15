@@ -1,6 +1,11 @@
 # Changelog
 
-## 2.0.4 - Unreleased
+## 2.0.5 - 15/10/2019
+
+- Content updates to "get involved" and "Apps and tools for patient care"
+- Added a pdf report to assets, linked to from get involved
+
+## 2.0.4 - 24/09/2019
 
 - Use the latest version of the NHS.UK frontend library (v2.3.1)
 - Update package dependencies to latest versions
