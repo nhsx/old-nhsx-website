@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.1.0 - TBC
+## 2.1.0 - 30/10/2019
 
 - New content for Data-driven health and care technology and Artificial Intelligence
 - Update package dependencies to latest versions
