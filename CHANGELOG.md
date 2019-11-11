@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.1.1 - 11/11/2019
+
+- Update the leadership team members
+- Update content on the Digital Innovation Team
+- Update package dependencies to latest versions
+- Install the latest version of NHS.UK frontend with new focus styles
+
 ## 2.1.0 - 30/10/2019
 
 - New content for Data-driven health and care technology and Artificial Intelligence
