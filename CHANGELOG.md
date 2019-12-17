@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.2 - 17/12/2019
+
+- Update package dependencies to latest versions
+
 ## 2.1.1 - 11/11/2019
 
 - Update the leadership team members
