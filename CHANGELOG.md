@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.2.0 - Unreleased
+
+- Simplify the Azure Pipelines CI/CD configuration for a smoother and quicker release process
+
 ## 2.1.2 - 17/12/2019
 
 - Update package dependencies to latest versions

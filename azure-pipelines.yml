@@ -1,25 +1,28 @@
-queue:
-  name: Hosted Ubuntu 1604
-  demands: npm
+trigger:
+  branches:
+    include:
+    - master
+    - refs/tags/v*
+
+pool:
+  vmImage: 'ubuntu-latest'
 
 steps:
-- task: Npm@1
-  displayName: 'npm install'
-  inputs:
-    verbose: true
 
-- script: |
-    mkdir src
-    find . -maxdepth 1 -not \( -name 'azure-pipelines.yml' -or -name .git -or -name .gitignore -or -name README.md -or -name src -or -name . \) -exec mv '{}' './src/' \;
-    npm install  --prefix src
-  displayName: 'npm install'
+  - script: npm ci
+    displayName: 'Install'
 
-- task: ArchiveFiles@2
-  displayName: 'Archive files'
-  inputs:
-    rootFolderOrFile: '$(System.DefaultWorkingDirectory)/src'
-    includeRootFolder: false
+  - script: npm run build
+    displayName: 'Build'
 
+  - script: npm test
+    displayName: 'Test'
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish artifacts: drop'
+  - task: ArchiveFiles@2
+    inputs:
+      rootFolderOrFile: '$(System.DefaultWorkingDirectory)'
+      includeRootFolder: false
+    displayName: 'Create file archive to publish'
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish files to Azure Pipelines'
