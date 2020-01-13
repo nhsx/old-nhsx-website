@@ -60,6 +60,10 @@ router.get('/our-policies/cookie-declaration', (req, res) => {
   res.render('pages/our-policies/cookie-declaration');
 });
 
+router.get('/our-policies/cookie-confirmation', (req, res) => {
+  res.render('pages/our-policies/cookie-confirmation');
+});
+
 router.get('/our-policies/terms-and-conditions', (req, res) => {
   res.render('pages/our-policies/terms-and-conditions');
 });

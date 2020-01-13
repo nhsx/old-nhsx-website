@@ -17,121 +17,86 @@
 
 {% block body %}
 <div class="nhsuk-grid-row">
-  <div class="nhsuk-grid-column-two-thirds">
+  <div class="nhsuk-grid-column-full">
 
-    <h1>Cookies</h1>
-    <p>Cookies are files saved on your phone, tablet or computer when you visit a website.</p>
-    <p>They store information about how you use the website, such as the pages you visit.</p>
-    <p>Cookies are not viruses or computer programmes. They are very small so do not take up much space.</p>
+    <div class="nhsuk-u-reading-width">
 
-    <div class="nhsuk-panel nhsuk-u-padding-bottom-1">
-      <div class="nhsuk-form-group nhsuk-u-margin-bottom-0">
-        <fieldset class="nhsuk-fieldset" id="cookie-preferences-form" aria-describedby="cookie-preferences">
-          <legend class="nhsuk-fieldset__legend nhsuk-fieldset__legend--l">
-            <h2 class="nhsuk-fieldset__heading">Turn cookies on or off</h2>
-          </legend>
-          <p id="cookie-preferences">We use 3 main types of cookie on our website. You can choose which cookies you're happy for us to use.</p>
+      <h1>{{ pageTitle }}</h1>
 
-          <h3>Cookies needed for the website to work</h3>
-          <p>These cookies do things like keep the website secure. They always need to be on.</p>
+      <h2>What are cookies?</h2>
+      <p>Cookies are files saved on your phone, tablet or computer when you visit a website.</p>
+      <p>They store information about how you use the website, such as the pages you visit.</p>
+      <p>Cookies are not viruses or computer programs. They are very small so do not take up much space.</p>
 
-          <h3>Cookies that remember your settings</h3>
-          <p>These cookies do things like remember pop-ups you’ve seen, so you're not shown them again.</p>
+      <h2>How we use cookies</h2>
+      <p>We use cookies to:</p>
+      <ul>
+        <li>make our website work, for example by keeping it secure and fast</li>
+        <li>measure how you use our website, such as which pages you visit (anonymously)</li>
+      </ul>
 
-          <div class="nhsuk-radios nhsuk-radios--inline nhsuk-u-margin-bottom-6">
-            <div class="nhsuk-radios__item">
-              <input class="nhsuk-radios__input" id="input-preferences-1" name="input-preferences" type="radio" value="on">
-              <label class="nhsuk-label nhsuk-radios__label" for="input-preferences-1">
-                On
-              </label>
-            </div>
+    </div>
 
-            <div class="nhsuk-radios__item">
-              <input class="nhsuk-radios__input" id="input-preferences-2" name="input-preferences" type="radio" value="yes">
-              <label class="nhsuk-label nhsuk-radios__label" for="input-preferences-2">
-                Off
-              </label>
-            </div>
-          </div>
+    <details class="nhsuk-details">
+      <summary class="nhsuk-details__summary">
+        <span class="nhsuk-details__summary-text">
+          List of cookies that make our website work
+        </span>
+      </summary>
+      <div class="nhsuk-details__text">
 
-          <h3>Cookies that measure website use</h3>
-          <p>These cookies store anonymous information about how you use our website, such as what you click on.</p>
+        <div class="nhsuk-table-responsive app-table-responsive--cookies">
+          <table class="nhsuk-table" role="”table”">
+            <caption class="nhsuk-table__caption">Cookie names and purposes</caption>
+            <thead class="nhsuk-table__head">
+              <tr class="nhsuk-table__row" role="row">
+                <th class="nhsuk-table__header" role="columnheader" scope="col">Cookie name</th>
+                <th class="nhsuk-table__header" role="columnheader" scope="col">Purpose</th>
+                <th class="nhsuk-table__header" role="columnheader" scope="col">Expiry</th>
+              </tr>
+            </thead>
+            <tbody class="nhsuk-table__body">
+              <tr class="nhsuk-table__row" role="row">
+                <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">ARRAffinity</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Helps our website work faster.</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Expiry">When you close the browser</td>
+              </tr>
+              <tr class="nhsuk-table__row" role="row">
+                <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">nhsuk-cookie-consent</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Remembers if you used our cookies banner</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Expiry">When you close the browser (if you do not use the banner) or 1 year (if you use the banner)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-          <div class="nhsuk-radios nhsuk-radios--inline nhsuk-u-margin-bottom-6">
-            <div class="nhsuk-radios__item">
-              <input class="nhsuk-radios__input" id="input-statistics-1" name="input-statistics" type="radio" value="on">
-              <label class="nhsuk-label nhsuk-radios__label" for="input-statistics-1">
-                On
-              </label>
-            </div>
-
-            <div class="nhsuk-radios__item">
-              <input class="nhsuk-radios__input" id="input-statistics-2" name="input-statistics" type="radio" value="yes">
-              <label class="nhsuk-label nhsuk-radios__label" for="input-statistics-2">
-                Off
-              </label>
-            </div>
-          </div>
-        </fieldset>
-        <button onclick="changeConsent(); reloadPage();" type="submit" class="nhsuk-button">
-            Save my settings
-        </button>
-        <p><a href="/our-policies//cookie-declaration/">More details about our cookies</a></p>
       </div>
-        <script>
-            // function to check the checkboxes based on status of cookie preferences
-            window.addEventListener("load", function checkCookie() {
-                loadSuccessBanner();
-                document.getElementById("input-preferences-1").checked = NHSCookieConsent.getPreferences();
-                document.getElementById("input-preferences-2").checked = !NHSCookieConsent.getPreferences();
+    </details>
 
-                document.getElementById("input-statistics-1").checked = NHSCookieConsent.getStatistics();
-                document.getElementById("input-statistics-2").checked = !NHSCookieConsent.getStatistics();
-            });
+    <div class="nhsuk-u-reading-width">
 
-            // function to edit consent preferences based on check box input
-            function changeConsent() {
-              NHSCookieConsent.setPreferences(document.getElementById("input-preferences-1").checked);
-              NHSCookieConsent.setStatistics(document.getElementById("input-statistics-1").checked);
-              if(typeof NHSCookieConsent.setConsented === "function") {
-                NHSCookieConsent.setConsented(true);
-              }
-            }
+      <h2>Change your cookie settings</h2>
+      <p>Some cookies, like those used to measure how you use our website, are not needed for our website to work.</p>
+      <p>These cookies can help us make our website better, but we'll only use them if you say it's OK.</p>
 
-            function reloadPage() {
-              document.cookie = "settings-confirmation-banner=true";
-              document.location.reload();
-              window.scrollTo(0, 0);
-            }
-
-            function loadSuccessBanner() {
-              var url = window.location.href;
-              if (document.cookie.indexOf("settings-confirmation-banner=") >= 0) {
-                var html = "<div id='nhsuk-cookie-confirmation-banner' role='banner'>" +
-                  "<div class='nhsuk-width-container'>" +
-                  "<p>Your cookie settings have been saved.</p>" +
-                  "</div>" +
-                  "</div>" +
-                  "<style>" +
-                  "  #nhsuk-cookie-confirmation-banner {" +
-                                "background-color: #007f3b;" +
-                                "color: #fff;" +
-                                "padding: 8px 0 8px 0;" +
-                                "position: relative;" +
-                              "}" +
-                              "#nhsuk-cookie-confirmation-banner p {" +
-                                "margin: 0;" +
-                              "}" +
-                              "</style>";
-                var div = document.createElement('div');
-                div.innerHTML = html;
-                document.body.insertBefore(div, document.body.firstChild);
-                document.cookie = "settings-confirmation-banner=false ; expires = Thu, 01 Jan 1970 00:00:00 GMT"
-              }
-            }
-
-        </script>
+      <div class="nhsuk-action-link">
+        <a class="nhsuk-action-link__link" href="/our-policies/cookie-declaration">
+          <svg class="nhsuk-icon nhsuk-icon__arrow-right-circle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 2a10 10 0 0 0-9.95 9h11.64L9.74 7.05a1 1 0 0 1 1.41-1.41l5.66 5.65a1 1 0 0 1 0 1.42l-5.66 5.65a1 1 0 0 1-1.41 0 1 1 0 0 1 0-1.41L13.69 13H2.05A10 10 0 1 0 12 2z"></path>
+          </svg>
+          <span class="nhsuk-action-link__text">Choose which cookies we use</span>
+        </a>
       </div>
+
+      <h2>How we use the information we collect</h2>
+      <p>To find out how we collect, store and use information about you or your visit, see <a href="/our-policies/privacy-policy">our privacy policy</a>.</p>
+
+    </div>
+
+    <div class="nhsuk-review-date">
+      <p class="nhsuk-body-s">Updated: January 2020</p>
+    </div>
 
   </div>
 </div>
