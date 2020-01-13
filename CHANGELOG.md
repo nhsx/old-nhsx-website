@@ -4,6 +4,8 @@
 
 - Simplify the Azure Pipelines CI/CD configuration for a smoother and quicker release process
 - Update package dependencies to latest versions
+- Use the latest cookie logic and content pages
+- Self host the cookie banner and change content to relate to the NHSX website
 
 ## 2.1.2 - 17/12/2019
 

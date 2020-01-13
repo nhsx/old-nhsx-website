@@ -21,48 +21,8 @@
   <div class="nhsuk-grid-column-full">
 
     <div class="nhsuk-u-reading-width">
-      <h1>Details about the cookies we use</h1>
-      <p>This is a list of all the cookies we use on the NHSX website.</p>
-      <p>If there's a group of cookies you do not want us to put on your device, you can <a href="/our-policies/cookies-policy">turn cookies on or off</a>.</p>
-
-      <h2>Cookies needed for the website to work</h2>
-      <p>These cookies do things like keep the website secure. They always need to be on.</p>
-    </div>
-
-    <div class="nhsuk-panel">
-      <div class="nhsuk-table-responsive nhsx-table-responsive--nhsx">
-        <table class="nhsuk-table" role="”table”">
-          <caption class="nhsuk-table__caption">Cookie names and purposes</caption>
-          <thead class="nhsuk-table__head">
-            <tr class="nhsuk-table__row" role="row">
-              <th class="nhsuk-table__header" role="columnheader" scope="col">Cookie name</th>
-              <th class="nhsuk-table__header" role="columnheader" scope="col">Purpose</th>
-              <th class="nhsuk-table__header" role="columnheader" scope="col">Expiry</th>
-            </tr>
-          </thead>
-          <tbody class="nhsuk-table__body">
-            <tr class="nhsuk-table__row" role="row">
-              <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">ARRAffinity</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Helps our website work faster.</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Expiry">Session</td>
-            </tr>
-            <tr class="nhsuk-table__row" role="row">
-              <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">nhsuk-cookie-consent</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Tells us your cookie preferences so we can act upon them</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Expiry">2 years</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <div class="nhsuk-u-reading-width">
-      <h2>Cookies that remember your settings</h2>
-      <p>These cookies do things like remember pop-ups you've seen, so you're not shown them again.</p>
-    </div>
-
-    <div class="nhsuk-panel">
-      <p>We do not currently set any cookies of this type.</p>
+      <h1>{{ pageTitle }}</h1>
+      <p class="nhsuk-lede-text">Let us know which cookies we can use. We'll use a cookie to save your settings.</p>
     </div>
 
     <div class="nhsuk-u-reading-width">
@@ -70,38 +30,96 @@
       <p>These cookies store anonymous information about how you use our website, such as what you click on.</p>
     </div>
 
-    <div class="nhsuk-panel">
-      <div class="nhsuk-table-responsive nhsx-table-responsive--nhsx">
-        <table class="nhsuk-table" role="”table”">
-          <caption class="nhsuk-table__caption">Cookie names and purposes</caption>
-          <thead class="nhsuk-table__head">
-            <tr class="nhsuk-table__row" role="row">
-              <th class="nhsuk-table__header" role="columnheader" scope="col">Cookie name</th>
-              <th class="nhsuk-table__header" role="columnheader" scope="col">Purpose</th>
-              <th class="nhsuk-table__header" role="columnheader" scope="col">Expiry</th>
-            </tr>
-          </thead>
-          <tbody class="nhsuk-table__body">
-            <tr class="nhsuk-table__row" role="row">
-              <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">_ga</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Tells us how you use our website with Google analytics</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Expiry">2 years</td>
-            </tr>
-            <tr class="nhsuk-table__row" role="row">
-              <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">_gid</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Tells us how you use our website with Google analytics</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Expiry">1 day</td>
-            </tr>
-            <tr class="nhsuk-table__row" role="row">
-              <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">_gat_gtag_UA_137452494_1	</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Helps stop Google analytics web servers crashing.</td>
-              <td class="nhsuk-table__cell" role="cell" data-label="Expiry">1 min</td>
-            </tr>
-          </tbody>
-        </table>
+    <details class="nhsuk-details">
+      <summary class="nhsuk-details__summary">
+        <span class="nhsuk-details__summary-text">
+          List of cookies that measure website use
+        </span>
+      </summary>
+      <div class="nhsuk-details__text">
+
+        <div class="nhsuk-table-responsive app-table-responsive--cookies">
+          <table class="nhsuk-table" role="”table”">
+            <caption class="nhsuk-table__caption">Cookie names and purposes</caption>
+            <thead class="nhsuk-table__head">
+              <tr class="nhsuk-table__row" role="row">
+                <th class="nhsuk-table__header" role="columnheader" scope="col">Cookie name</th>
+                <th class="nhsuk-table__header" role="columnheader" scope="col">Purpose</th>
+                <th class="nhsuk-table__header" role="columnheader" scope="col">Expiry</th>
+              </tr>
+            </thead>
+            <tbody class="nhsuk-table__body">
+              <tr class="nhsuk-table__row" role="row">
+                <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">_ga</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Used by Google Analytics. Tells us how you use our website.</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Expiry">2 years</td>
+              </tr>
+              <tr class="nhsuk-table__row" role="row">
+                <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">_gid</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Used by Google Analytics. Sets a unique ID for your session to help tell us how you use our website.</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Expiry">1 day</td>
+              </tr>
+              <tr class="nhsuk-table__row" role="row">
+                <td class="nhsuk-table__cell" role="cell" data-label="Cookie name">_gat</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Purpose">Used by Google Analytics. Helps stop Google Analytics web servers crashing when collecting information on how you use our website.</td>
+                <td class="nhsuk-table__cell" role="cell" data-label="Expiry">1 min</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
       </div>
+    </details>
+
+    <div class="nhsuk-u-reading-width">
+
+      <fieldset class="nhsuk-fieldset" id="cookie-statistics-form" aria-describedby="cookie-statistics">
+        <div class="nhsuk-radios nhsuk-radios--inline nhsuk-u-margin-bottom-6">
+          <div class="nhsuk-radios__item">
+            <input class="nhsuk-radios__input" id="input-statistics-1" name="input-statistics" type="radio" value="on">
+            <label class="nhsuk-label nhsuk-radios__label" for="input-statistics-1">
+            Use cookies to measure my website use
+            </label>
+          </div>
+          <div class="nhsuk-radios__item">
+            <input class="nhsuk-radios__input" id="input-statistics-2" name="input-statistics" type="radio" value="yes">
+            <label class="nhsuk-label nhsuk-radios__label" for="input-statistics-2">
+            Do not use cookies to measure my website use
+            </label>
+          </div>
+        </div>
+      </fieldset>
+
+      <a href="/our-policies/cookie-confirmation" onclick="changeConsent();" type="submit" class="nhsuk-button nhsuk-u-margin-bottom-0">
+        Save my cookie settings
+      </a>
+
+    </div>
+
+    <div class="nhsuk-review-date">
+      <p class="nhsuk-body-s">Updated: January 2020</p>
     </div>
 
   </div>
 </div>
+{% endblock %}
+
+{% block pageScripts %}
+<script>
+  // Check the checkboxes based on status of cookie preferences
+  window.addEventListener("load", function checkCookie() {
+      document.getElementById("input-statistics-1").checked = NHSCookieConsent.getStatistics();
+      document.getElementById("input-statistics-2").checked = !NHSCookieConsent.getStatistics();
+  });
+
+  // Edit consent preferences based on checkbox input
+  function changeConsent() {
+  NHSCookieConsent.setStatistics(document.getElementById("input-statistics-1").checked);
+
+    if(typeof NHSCookieConsent.setConsented === "function") {
+      NHSCookieConsent.setConsented(true);
+    }
+
+  }
+</script>
 {% endblock %}
