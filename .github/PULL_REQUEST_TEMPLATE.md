@@ -9,7 +9,6 @@
 
 - [ ] Tested against the [NHS.UK frontend testing policy](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/testing.md) (Resolution, Browser & Accessibility)
 - [ ] Code follows the [NHS.UK frontend coding standards](https://github.com/nhsuk/nhsuk-frontend/blob/master/docs/contributing/coding-standards.md)
-- [ ] Documentation
 - [ ] Version number increase (using [SEMVER](https://semver.org/))
+- [ ] Documentation
 - [ ] CHANGELOG entry
-- [ ] Validated on staging environment (only required for releases)
