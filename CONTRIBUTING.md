@@ -5,8 +5,7 @@
 - [Running the application locally](#running-the-application-locally)
 - [Application structure](#application-structure)
 - [Versioning](#versioning)
-- [Deployments](#deployments)
-- [Releases](#releases)
+- [Releases & Deployments](#releases--deployments)
 
 ## About this application
 
@@ -65,14 +64,8 @@ Run the project in development mode `npm run watch` and visit <a href="http://lo
 
 Versioning follows a [semver](https://semver.org/) approach, with the version number being in the `package.json` file and a `CHANGELOG.md` file documenting the changes between each release. For best practice, the version number should be bumped and a change log entry added for each release.
 
-## Deployments
+## Releases & Deployments
 
-The website gets deployed to the live environment [https://www.nhsx.nhs.uk/](https://www.nhsx.nhs.uk/) when it is merged into the `master` branch. We also have a testing environment [https://nhsx-website-stag-uks.azurewebsites.net](https://nhsx-website-stag-uks.azurewebsites.net) which is the `develop` branch. 
+Deployments to the staging environment [https://nhsx-website-stag-uks.azurewebsites.net/](https://nhsx-website-stag-uks.azurewebsites.net/) happen when changes are made to the `master` branch. Pull requests are required to make any changes to the `master` branch, which require at least 1 person to approve the pull request, usually a project maintainer.
 
-It is recommended to open all pull requests against `develop` branch first, validate the changes on the testing environment, then merge these changes into the master branch for a live release. We don't recommend pushing straight to live (`master` branch). Pull requests require at least 1 person to approve the pull request, usually a project maintainer, to be able to be merged.
-
-The deployments happen automatically once they are merged into the relevant branches, this is done with Azure Devops and the website is also hosted on Azure. The live environment sits behind Akamai, a firewall and cache, the cache is set to 20 minutes so 20 minutes until you see the changes after release.
-
-## Releases
-
-Following a successful deployment to the live environment (`master` branch), a release should be created under the [GitHub releases](https://github.com/nhsx/nhsx-website/releases).
+To release to the live environment [https://www.nhsx.nhs.uk/](https://www.nhsx.nhs.uk/), create a new tag and release under the [GitHub releases page](https://github.com/nhsx/nhsx-website/releases). The live environment sits behind a service called Akamai, a firewall and cache, the cache is set to 20 minutes so it will be around 20 minutes until you see the changes after releasing.
