@@ -3,6 +3,7 @@
 ## 2.3.0 - 28/01/2020
 
 - Content updates across missions, who are are and Artificial Intelligence pages
+- Update package dependencies to latest versions
 
 ## 2.2.0 - 13/01/2020
 
