@@ -1,6 +1,6 @@
 {
   "name": "nhsx-website",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "The NHSX website",
   "main": "app.js",
   "scripts": {
