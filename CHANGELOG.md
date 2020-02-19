@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.4.0 - 19/02/2020
+
+- Added guidance about Freedom of Interest requests
+- Update package dependencies to latest versions including latest NHS.UK frontend (3.0.3)
+
 ## 2.3.0 - 28/01/2020
 
 - Content updates across missions, who are are and Artificial Intelligence pages
