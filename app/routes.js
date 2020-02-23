@@ -33,7 +33,11 @@ router.get('/key-information-and-tools/designing-and-building-products-and-servi
 });
 
 router.get('/key-information-and-tools/policy-strategy-and-national-programmes', (req, res) => {
-  res.render('pages/key-information-and-tools/policy-strategy-and-national-programmes');
+  res.render('pages/key-information-and-tools/tech-plan-for-health-and-care');
+});
+
+router.get('/key-information-and-tools/tech-plan-for-health-and-care', (req, res) => {
+  res.render('pages/key-information-and-tools/tech-plan-for-health-and-care');
 });
 
 router.get('/key-information-and-tools/blogs-and-updates', (req, res) => {
