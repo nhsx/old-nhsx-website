@@ -3,6 +3,7 @@
 ## 2.5.0 - 27/02/2020
 
 - Add new tech plan for health and care page content
+- Add the NHS digital health technology standard draft
 
 ## 2.4.0 - 19/02/2020
 
