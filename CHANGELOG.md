@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.5.0 - 27/02/2020
+
+- Add new tech plan for health and care page content
+
 ## 2.4.0 - 19/02/2020
 
 - Added guidance about Freedom of Interest requests
