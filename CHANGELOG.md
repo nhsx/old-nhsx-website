@@ -4,6 +4,7 @@
 
 - Add new content on How we work with digital innovators
 - Grammatical fixes to the tech plan for health and care page
+- Update package dependencies to latest versions
 
 ## 2.5.0 - 27/02/2020
 
