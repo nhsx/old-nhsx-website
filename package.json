@@ -8,7 +8,7 @@
     "build": "npm run build:css && npm run build:js && npm run build:assets",
     "build:css": "node-sass --output-style compressed app/styles/main.scss public/css/main.min.css",
     "build:js": "npm run webpack",
-    "build:assets": "cpx 'app/assets/*' public/assets/",
+    "build:assets": "cpx 'app/assets/**/*' public/assets/",
     "clean": "touch public/tmp.txt && rm -rf public/*",
     "lint": "npm run lint:js && npm run lint:css",
     "lint:js": "eslint app/scripts/**",
@@ -20,7 +20,7 @@
     "watch": "concurrently \"npm run watch:scss\" \"npm run watch:js\" \"npm run watch:assets\" \"npm start\"",
     "watch:scss": "npm run build:css && npm run build:css -- -w",
     "watch:js": "webpack -w",
-    "watch:assets": "cpx 'app/assets/*' public/assets/ --watch",
+    "watch:assets": "cpx 'app/assets/**/*' public/assets/ --watch",
     "webpack": "webpack"
   },
   "author": "https://github.com/nhsx",

@@ -7,6 +7,7 @@
 - Update package dependencies to latest versions
 - Create a new page for Information Governance guidance
 - Move blog posts to the Key information and tools index page
+- Change the file path of the favicons to prevent them caching
 
 ## 2.5.0 - 27/02/2020
 
