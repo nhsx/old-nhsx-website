@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.6.0 - 04/03/2020
+
+- Add new content on How we work with digital innovators
+- Grammatical fixes to the tech plan for health and care page
+
 ## 2.5.0 - 27/02/2020
 
 - Add new tech plan for health and care page content
