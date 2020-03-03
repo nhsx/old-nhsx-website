@@ -5,6 +5,8 @@
 - Add new content on How we work with digital innovators
 - Grammatical fixes to the tech plan for health and care page
 - Update package dependencies to latest versions
+- Create a new page for Information Governance guidance
+- Move blog posts to the Key information and tools index page
 
 ## 2.5.0 - 27/02/2020
 

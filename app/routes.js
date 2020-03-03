@@ -41,7 +41,11 @@ router.get('/key-information-and-tools/tech-plan-for-health-and-care', (req, res
 });
 
 router.get('/key-information-and-tools/blogs-and-updates', (req, res) => {
-  res.render('pages/key-information-and-tools/blogs-and-updates');
+  res.render('pages/key-information-and-tools');
+});
+
+router.get('/key-information-and-tools/information-governance-guidance', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance');
 });
 
 router.get('/key-information-and-tools/data-driven-health-and-care-technology', (req, res) => {
