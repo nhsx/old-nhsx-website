@@ -1,6 +1,6 @@
 {
   "name": "nhsx-website",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "The NHSX website",
   "main": "app.js",
   "scripts": {
@@ -36,8 +36,8 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
-    "@babel/core": "^7.8.6",
-    "@babel/preset-env": "^7.8.6",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
     "babel-loader": "^8.0.6",
     "browser-sync": "^2.26.7",
     "concurrently": "^4.1.2",

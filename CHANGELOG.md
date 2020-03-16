@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.7.0 - 16/03/2020
+- Update package dependencies to latest versions
+
 ## 2.6.0 - 04/03/2020
 
 - Add new content on How we work with digital innovators
