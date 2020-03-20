@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.8.0 - 20/03/2020
+
+- Add further guidance for the Information Governance 
+
 ## 2.7.0 - 16/03/2020
 
 - New Information Governance guidance
