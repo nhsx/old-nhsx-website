@@ -2,7 +2,8 @@
 
 ## 2.8.0 - 20/03/2020
 
-- Add further guidance for the Information Governance 
+- Add further guidance for the Information Governance
+- Update package dependencies to latest versions
 
 ## 2.7.0 - 16/03/2020
 
