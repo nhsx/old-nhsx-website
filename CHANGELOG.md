@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.9.0 - 24/03/2020
+
+- Break Information Governance into separate pages
+
 ## 2.8.0 - 20/03/2020
 
 - Add further guidance for the Information Governance

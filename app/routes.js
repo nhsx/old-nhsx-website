@@ -45,7 +45,19 @@ router.get('/key-information-and-tools/blogs-and-updates', (req, res) => {
 });
 
 router.get('/key-information-and-tools/information-governance-guidance', (req, res) => {
-  res.render('pages/key-information-and-tools/information-governance-guidance');
+  res.render('pages/key-information-and-tools/information-governance-guidance/index');
+});
+
+router.get('/key-information-and-tools/information-governance-guidance/health-care-professionals', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance/health-care-professionals');
+});
+
+router.get('/key-information-and-tools/information-governance-guidance/social-care-sector', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance/social-care-sector');
+});
+
+router.get('/key-information-and-tools/information-governance-guidance/ig-professionals', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance/ig-professionals');
 });
 
 router.get('/key-information-and-tools/data-driven-health-and-care-technology', (req, res) => {
