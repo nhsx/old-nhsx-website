@@ -1,5 +1,5 @@
-{% set pageTitle = "Example supplementary privacy notice" %}
-{% set pageDescription = "Example supplementary privacy notice" %}
+{% set pageTitle = "COPI Notice - Frequently Asked questions" %}
+{% set pageDescription = "COPI Notice - Frequently Asked questions" %}
 
 {% extends 'includes/layout.njk' %}
 
