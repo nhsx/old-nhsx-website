@@ -1,0 +1,54 @@
+{% set pageTitle = "Example supplementary privacy notice" %}
+{% set pageDescription = "Example supplementary privacy notice" %}
+
+{% extends 'includes/layout.njk' %}
+
+{% block outerBody %}
+<nav class="nhsuk-breadcrumb" aria-label="Breadcrumb">
+  <div class="nhsuk-width-container">
+    <ol class="nhsuk-breadcrumb__list">
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/">Home</a></li>
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/key-information-and-tools">Key information and tools</a></li>
+      <li class="nhsuk-breadcrumb__item"><a class="nhsuk-breadcrumb__link" href="/key-information-and-tools/information-governance-guidance">Information governance</a></li>
+    </ol>
+    <p class="nhsuk-breadcrumb__back"><a class="nhsuk-breadcrumb__backlink" href="/key-information-and-tools/information-governance-guidance">Back to Information governance</a></p>
+  </div>
+</nav>
+{% endblock %}
+
+{% block body %}
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-two-thirds">
+
+    <h1 class="nhsuk-u-margin-bottom-5">Covid-19 Information Governance advice for health and care professionals</h1>
+
+  </div>
+</div>
+
+<div class="nhsuk-grid-row">
+  <div class="nhsuk-grid-column-two-thirds">
+    <p>The health and social care system is going to face significant pressures due to the Covid-19 outbreak. In the current circumstances it could be more harmful not to share health and care information than to share it. The Information Commissioner has assured NHSX that she cannot envisage a situation where she would take action against a health and care professional clearly trying to deliver care. You can read <a href="https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/03/data-protection-and-coronavirus/">the statement from the Information Commissioner's Office</a>, alongside their <a href="https://ico.org.uk/for-organisations/data-protection-and-coronavirus/">Q&A resource</a>. Health regulators have also published <a href="https://www.gmc-uk.org/news/news-archive/how-we-will-continue-to-regulate-in-light-of-novel-coronavirus/">a joint statement.</a></p>
+    <p>Information is critical to support health and social care services, protect public health, research, monitor, track and manage the outbreak and incidence of exposure.  A new <a href="/assets/Final_General_COPI_Notice.pdf">notice</a> has been issued using existing regulations which ensures that when you use confidential patient information for purposes relating to covid-19, you can be confident that you are doing so lawfully.</p>
+    <p>We will need to work in different ways from usual and the focus should be <b>what</b> information you share and <b>who</b> you share it with, rather than <b>how</b> you share it.  The following advice sets out some of the tools that you can use to support individual care, share information and communicate with colleagues during this time. This includes communications tools where data is stored outside of the UK.</p>
+    <p>This advice is endorsed by the Information Commissioner’s Office, the National Data Guardian and NHS Digital.</p>
+
+    <h3 class="nhsuk-heading-s">Mobile Messaging</h3>
+    <p>It is absolutely fine to use mobile messaging to communicate with colleagues and patients/service users as needed. It is also fine to use commercial, off-the-shelf applications such as WhatsApp and Telegram where there is no practical alternative and the benefits outweigh the risk.</p>
+    <p>The important thing, as always, is to consider what type of information you are sharing and with whom. And as much as possible limit the use of personal/confidential patient information.</p>
+
+  </div>
+
+  <div class="nhsuk-grid-column-one-third">
+
+    <div class="nhsx-u-border-top">
+      <h2 class="nhsuk-heading-m">Key information and tools</h2>
+      <ul>
+        <li><a href="/key-information-and-tools/information-governance-guidance/health-care-professionals">Advice for health and care professionals</a></li>
+        <li><a href="/key-information-and-tools/information-governance-guidance/social-care-sector">Advice for the social care sector</a></li>
+        <li><a href="/key-information-and-tools/information-governance-guidance/ig-professionals">Advice for IG professionals</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
