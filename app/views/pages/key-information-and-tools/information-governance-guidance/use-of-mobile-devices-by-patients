@@ -20,22 +20,56 @@
 <div class="nhsuk-grid-row">
   <div class="nhsuk-grid-column-two-thirds">
 
-    <h1 class="nhsuk-u-margin-bottom-5">Covid-19 Information Governance advice for health and care professionals</h1>
+    <h1 class="nhsuk-u-margin-bottom-5">The Use of Mobile Devices by Patients in Hospitals (e.g. Phones, Tablets and Cameras)</h1>
 
   </div>
 </div>
 
 <div class="nhsuk-grid-row">
   <div class="nhsuk-grid-column-two-thirds">
-    <p>The health and social care system is going to face significant pressures due to the Covid-19 outbreak. In the current circumstances it could be more harmful not to share health and care information than to share it. The Information Commissioner has assured NHSX that she cannot envisage a situation where she would take action against a health and care professional clearly trying to deliver care. You can read <a href="https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/03/data-protection-and-coronavirus/">the statement from the Information Commissioner's Office</a>, alongside their <a href="https://ico.org.uk/for-organisations/data-protection-and-coronavirus/">Q&A resource</a>. Health regulators have also published <a href="https://www.gmc-uk.org/news/news-archive/how-we-will-continue-to-regulate-in-light-of-novel-coronavirus/">a joint statement.</a></p>
-    <p>Information is critical to support health and social care services, protect public health, research, monitor, track and manage the outbreak and incidence of exposure.  A new <a href="/assets/Final_General_COPI_Notice.pdf">notice</a> has been issued using existing regulations which ensures that when you use confidential patient information for purposes relating to covid-19, you can be confident that you are doing so lawfully.</p>
-    <p>We will need to work in different ways from usual and the focus should be <b>what</b> information you share and <b>who</b> you share it with, rather than <b>how</b> you share it.  The following advice sets out some of the tools that you can use to support individual care, share information and communicate with colleagues during this time. This includes communications tools where data is stored outside of the UK.</p>
-    <p>This advice is endorsed by the Information Commissioner’s Office, the National Data Guardian and NHS Digital.</p>
+  
+  <h3 class="nhsuk-heading-s">Background</h3>
+    <p>This guidance provides advice for patients using mobile devices such as phones, tablets and cameras in acute hospitals. This is particularly important during the Covid-19 period when patients may be isolated from loved ones.</p>
+    <p>During this time you should follow the advice of the Government and the NHS on washing your hands more regularly than usual and take appropriate precautions to ensure any mobile device you use is regularly cleaned.</p>
+    <p>This guidance has been endorsed by the Health and Care Information Governance Panel, which includes the National Data Guardian and Information Commissioner's Office.</p>
 
-    <h3 class="nhsuk-heading-s">Mobile Messaging</h3>
-    <p>It is absolutely fine to use mobile messaging to communicate with colleagues and patients/service users as needed. It is also fine to use commercial, off-the-shelf applications such as WhatsApp and Telegram where there is no practical alternative and the benefits outweigh the risk.</p>
-    <p>The important thing, as always, is to consider what type of information you are sharing and with whom. And as much as possible limit the use of personal/confidential patient information.</p>
-
+    <h3 class="nhsuk-heading-s">I’m a patient or service user - what does this mean for me?</h3>
+    <p>We want you to use your mobile device in hospital, it’s an important way of keeping in touch and making use of online resources like the NHS app.</p>
+    <p>It’s important that when you use your mobile device in hospital you’re careful not to:</p>
+    <ul>
+          <li>Take anyone’s photo without permission, including staff or people in the background of your photos e.g. in busy waiting areas. It is important to remember that taking a photo or video could breach another patient’s privacy and cause them distress.</li>
+          <li>Make video calls in a way that means the other person can see any other patients, visitors or staff members.</li>
+          <li>Make calls or use your phone in a way that disturbs other patients.</li>
+          <li>Use your mobile device around sensitive equipment where there is a particularly high risk of interference. Signs will make it clear that you shouldn’t use your phone in that area. Switch it off or enable ‘airplane mode’. Do not just leave the device on the silent or vibrate setting as it could still affect medical equipment.</li>
+    </ul>
+     
+    <h3 class="nhsuk-heading-s">I work in a health and care organisation - what does this mean for me?</h3>
+    <p>This guidance specifically considers the use of mobile devices by patients and visitors. The same principles apply to staff using a personal mobile device but the purpose of this guidance is to help you support patients’ use of mobile devices.</p>
+    <p>There are many benefits for patients that arise from encouraging them to use mobile devices:</p>
+    <ul>
+          <li>Communication with family and friends - often an essential element of support and comfort for a patient admitted to hospital.</li>
+          <li>Accessing helpful information about their conditions – apps and digital services can support greater patient participation, inform joint decision-making, and allow patients to provide feedback on their outcomes and experiences.</li>
+          <li>Recording conversations – doing so can help reduce anxiety for patients trying to remember and understand what was said. It also allows them to share the information later with their loved ones and carers. As a matter of good practice, the patient/service user should inform you if they plan to record the conversation and out of politeness ask if you are OK with this.</li>
+    </ul>
+    
+    <p>Mobile devices can be used safely in hospitals. You can support patients to use their mobile devices appropriately as follows:</p>
+    <ul>
+          <li>Ask patients to respect people’s privacy if they look like they are taking photos without permission, e.g. of staff or other patients in the background.</li>
+          <li>Speak to patients if the use of their mobile device is disturbing others e.g. if it is interrupting care provision, creating unacceptable working conditions for colleagues or undermining patient comfort and recuperation.</li>
+          <li>Ask patients to switch off their phones or enable airplane mode if you see them using phones in an area where mobile devices are not permitted e.g. around sensitive equipment where there is a particularly high risk of interference. These areas will be indicated by a sign that clearly states use of mobile devices is not permitted.</li>
+          <li>Speak to your line manager and hospital security if you see anyone suspiciously taking photos of children or vulnerable adults.</li>
+    </ul> 
+    
+    <h3 class="nhsuk-heading-s">I’m an IG professional - what does this mean for me?</h3>
+    <p>Each organisation is responsible for stating its own policies on the use of mobile devices by staff, patients and visitors. However, this guidance aims to promote a consistent and positive approach to using mobile devices across NHS Trusts that will underpin these policies and assist with the management of risks.</p>
+    <p>Trusts should review their policies relating to mobile device use by staff, patients and visitors, including phones, tablets, cameras, video and audio recording devices. The following should be considered:</p>
+    <ul>
+          <li>Patients should be free to use mobile phones in hospitals, including on the wards, where the local risk assessment indicates that such use would not represent a material threat to the safety, privacy or dignity of patients or others. <a href="https://www.gov.uk/government/publications/the-nhs-constitution-for-england/">The NHS Constitution</a> outlines patients’ right to confidentiality. A risk assessment should be undertaken to assess the risk of a breach of privacy and confidentiality. There should be ways to mitigate any risks.</li>
+          <li>Care providers must safeguard and promote the welfare of children and vulnerable adults, whether patients or visitors. Providers must take steps to prevent inappropriate photographs being taken, either of the individuals concerned or of confidential information pertaining to them.</li>
+          <li>There are clear links to the broader safeguarding agenda and to the actions that Trusts are recommended to take in the <a href="https://www.gov.uk/government/publications/jimmy-savile-nhs-investigations-lessons-learned/">‘lessons learnt’ report</a> relating to Jimmy Savile, including the recommendation that Trusts should, “devise a robust, Trust-wide policy setting out how access by patients and visitors to the Internet, to social networks and other social media activities such as blogs and Twitter is managed and where necessary restricted”.</li>
+          <li>The Medicines and Healthcare products Regulatory Agency (MHRA) does not recommend a ban on the use of mobile phones in hospitals. However, a mobile phone can affect sensitive equipment when it is operated at high power in close proximity to such devices. Therefore, the MHRA recommends that Trusts develop local policies to reduce the risk of interference to critical device. See <a href="https://www.gov.uk/government/publications/electromagnetic-interference-sources/">MHRA guidance</a> for further information.</li>  
+    </ul>
+    
   </div>
 
   <div class="nhsuk-grid-column-one-third">
