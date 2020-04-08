@@ -60,6 +60,18 @@ router.get('/key-information-and-tools/information-governance-guidance/ig-profes
   res.render('pages/key-information-and-tools/information-governance-guidance/ig-professionals');
 });
 
+router.get('/key-information-and-tools/information-governance-guidance/COPI-notice-FAQs', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance/COPI-notice-FAQs');
+});
+
+router.get('/key-information-and-tools/information-governance-guidance/how-data-is-supporting-covid19', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance/how-data-is-supporting-covid19');
+});
+
+router.get('/key-information-and-tools/information-governance-guidance/use-of-mobile-devices-by-patients', (req, res) => {
+  res.render('pages/key-information-and-tools/information-governance-guidance/use-of-mobile-devices-by-patients');
+});
+
 router.get('/key-information-and-tools/data-driven-health-and-care-technology', (req, res) => {
   res.render('pages/key-information-and-tools/data-driven-health-and-care-technology');
 });
