@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.10.0 - 08/04/2020
+- New page with COPI notice FAQs
+- New page on how data is supporting Covid-19 response
+- New page on how mobile devices are supporting patients in hospitals
+- Example privacy notice PDF included
+- Update Information Governance hub page with links to new pages
+
 ## 2.9.0 - 24/03/2020
 
 - Break Information Governance into separate pages
