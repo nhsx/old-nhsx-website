@@ -20,21 +20,62 @@
 <div class="nhsuk-grid-row">
   <div class="nhsuk-grid-column-two-thirds">
 
-    <h1 class="nhsuk-u-margin-bottom-5">Covid-19 Information Governance advice for health and care professionals</h1>
+    <h1 class="nhsuk-u-margin-bottom-5">COPI Notice - Frequently Asked Questions</h1>
 
   </div>
 </div>
 
 <div class="nhsuk-grid-row">
   <div class="nhsuk-grid-column-two-thirds">
-    <p>The health and social care system is going to face significant pressures due to the Covid-19 outbreak. In the current circumstances it could be more harmful not to share health and care information than to share it. The Information Commissioner has assured NHSX that she cannot envisage a situation where she would take action against a health and care professional clearly trying to deliver care. You can read <a href="https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/03/data-protection-and-coronavirus/">the statement from the Information Commissioner's Office</a>, alongside their <a href="https://ico.org.uk/for-organisations/data-protection-and-coronavirus/">Q&A resource</a>. Health regulators have also published <a href="https://www.gmc-uk.org/news/news-archive/how-we-will-continue-to-regulate-in-light-of-novel-coronavirus/">a joint statement.</a></p>
-    <p>Information is critical to support health and social care services, protect public health, research, monitor, track and manage the outbreak and incidence of exposure.  A new <a href="/assets/Final_General_COPI_Notice.pdf">notice</a> has been issued using existing regulations which ensures that when you use confidential patient information for purposes relating to covid-19, you can be confident that you are doing so lawfully.</p>
-    <p>We will need to work in different ways from usual and the focus should be <b>what</b> information you share and <b>who</b> you share it with, rather than <b>how</b> you share it.  The following advice sets out some of the tools that you can use to support individual care, share information and communicate with colleagues during this time. This includes communications tools where data is stored outside of the UK.</p>
-    <p>This advice is endorsed by the Information Commissioner’s Office, the National Data Guardian and NHS Digital.</p>
 
-    <h3 class="nhsuk-heading-s">Mobile Messaging</h3>
-    <p>It is absolutely fine to use mobile messaging to communicate with colleagues and patients/service users as needed. It is also fine to use commercial, off-the-shelf applications such as WhatsApp and Telegram where there is no practical alternative and the benefits outweigh the risk.</p>
-    <p>The important thing, as always, is to consider what type of information you are sharing and with whom. And as much as possible limit the use of personal/confidential patient information.</p>
+    <h3 class="nhsuk-heading-s">Why are you doing this?</h3>
+    <p>The health and care system is facing an unprecedented challenge and we want to ensure that healthcare organisations, Arms Length Bodies and local authorities are able to process and share the data they need to respond to Covid-19 for example by treating and caring for patients and those at risk, managing the service and identifying patterns and risks.</p>
+    <p>As part of a wider package of measures, including guidance and directions, the Secretary of State has issued a range of Notices which require that data is shared for purposes of Covid-19. They will help give healthcare organisations and local authorities the confidence to share the data needed to respond to Covid-19.</p>
+
+    <h3 class="nhsuk-heading-s">What are COPI notices?</h3>
+    <p>The <a href="http://www.legislation.gov.uk/uksi/2002/1438/contents/made/">Health Service (Control of Patient Information) Regulations 2002</a> allow the processing of Confidential Patient Information (CPI) for specific purposes. Regulation 3 provides for the processing of CPI in relation to communicable diseases and other threats to public health and in particular allows the Secretary of State to require organisations to process CPI for purposes related to communicable diseases.</p> 
+    <p>The Secretary of State has issued four of these <a href="https://www.gov.uk/government/publications/coronavirus-covid-19-notification-of-data-controllers-to-share-information/">notices</a> requiring NHS Digital, NHS England & Improvement, all healthcare organisations, Arms Length Bodies, Local Authorities and GPs (including a specific requirement related to the UK Biobank project) to process CPI for the purposes related to communicable diseases.</p>
+
+    <h3 class="nhsuk-heading-s">What does processing mean?</h3>
+    <p>Under COPI Regulations 2002, processing means:</p>
+    <ul>
+      <li>the use, dissemination and obtaining of information;</li> 
+      <li>the recording and holding of information;</li>
+      <li>the retrieval, alignment and combination of information;</li>
+      <li>the organisation, adaption or alteration of information;</li>
+      <li>the blocking, erasure and destruction of information.</li>
+    </ul>
+
+    <h3 class="nhsuk-heading-s">What purposes are covered?</h3>
+    <p>The COPI notices cover a range of purposes related to diagnosing, managing, and controlling the spread of communicable diseases. For Covid-19 purposes this could include but is not limited to:</p>
+    <ul>
+      <li>understanding Covid-19 and risks to public health, trends in Covid-19 and such risks, and controlling and preventing the spread of Covid-19 and such risks;</li> 
+      <li>identifying and understanding information about patients or potential patients with or at risk of Covid-19;</li>
+      <li>delivering services to patients, clinicians, the health services;</li>
+      <li>research and planning in relation to Covid-19.</li>
+    </ul>
+
+    <h3 class="nhsuk-heading-s">What type of data is covered?</h3>
+    <p>The notice covers confidential patient information so any data regardless of its identifiability, which is being used for the purposes set out above is covered. It will all be treated in line with the principles of GDPR i.e. fairly, lawfully and securely.</p>
+
+    <h3 class="nhsuk-heading-s">How long will the notices be in place?</h3>
+    <p>These Notices will be reviewed on or before 30 September 2020 and may be extended by further notice in writing. If no further notice is sent, they will expire on 30 September 2020. This means that processing of data will be stopped and information shared for the specific purpose of Covid-19 will be deleted.</p>
+
+    <h3 class="nhsuk-heading-s">What if I’m unsure about sharing data?</h3>
+    <p>If you are unsure about the appropriate action to take, please contact <a href="mailto:England.IGPolicyTeam@nhs.net">England.IGPolicyTeam@nhs.net</a>.</p>
+
+    <h3 class="nhsuk-heading-s">What about GDPR?</h3>
+    <p>Data controllers are still required to comply with relevant and appropriate data protection standards and to ensure within reason that they operate within statutory and regulatory boundaries. The General Data Protection Regulations (GDPR) allow health and care data to be used as long as one or more of the conditions under Article 6 and Article 9 are met. There are conditions under both Articles which can be relied on for the sharing of health and care data – including ‘the care and treatment of patients’ and ‘public health’. We would expect any organisation to disseminate information within legal requirements set out under GDPR.</p>
+
+    <h3 class="nhsuk-heading-s">What if I have opted-out of my data being used (National Data Opt-Out)?</h3>
+    <p>The national data opt-out does not apply to disclosure of confidential patient information if it is being used to protect public health, for example to:</p>
+    <ul>
+      <li>diagnose communicable diseases;</li> 
+      <li>control or prevent their spread;</li>
+      <li>deliver and monitor vaccination programmes;</li>
+      <li>manage risks of infection from food or water supplies or the environment.</li>
+    </ul>
+    <p>Read a full explanation of the lawful basis of such disclosures in <a href="https://digital.nhs.uk/services/national-data-opt-out/operational-policy-guidance-document/when-does-a-national-data-opt-out-not-apply#6-2-communicable-diseases-and-risks-to-public-health/">6.2:Communicable diseases and risks to public health</a> in the operational policy guidance document.</p>
 
   </div>
 
