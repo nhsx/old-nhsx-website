@@ -21,21 +21,54 @@
   <div class="nhsuk-grid-column-two-thirds">
 
     <h1 class="nhsuk-u-margin-bottom-5">How data is supporting the Covid-19 response</h1>
-
+    <h2 class="nhsuk-u-margin-bottom-5">Updated 8th April 2020</h2>
+    
   </div>
 </div>
 
 <div class="nhsuk-grid-row">
   <div class="nhsuk-grid-column-two-thirds">
-    <p>The health and social care system is going to face significant pressures due to the Covid-19 outbreak. In the current circumstances it could be more harmful not to share health and care information than to share it. The Information Commissioner has assured NHSX that she cannot envisage a situation where she would take action against a health and care professional clearly trying to deliver care. You can read <a href="https://ico.org.uk/about-the-ico/news-and-events/news-and-blogs/2020/03/data-protection-and-coronavirus/">the statement from the Information Commissioner's Office</a>, alongside their <a href="https://ico.org.uk/for-organisations/data-protection-and-coronavirus/">Q&A resource</a>. Health regulators have also published <a href="https://www.gmc-uk.org/news/news-archive/how-we-will-continue-to-regulate-in-light-of-novel-coronavirus/">a joint statement.</a></p>
-    <p>Information is critical to support health and social care services, protect public health, research, monitor, track and manage the outbreak and incidence of exposure.  A new <a href="/assets/Final_General_COPI_Notice.pdf">notice</a> has been issued using existing regulations which ensures that when you use confidential patient information for purposes relating to covid-19, you can be confident that you are doing so lawfully.</p>
-    <p>We will need to work in different ways from usual and the focus should be <b>what</b> information you share and <b>who</b> you share it with, rather than <b>how</b> you share it.  The following advice sets out some of the tools that you can use to support individual care, share information and communicate with colleagues during this time. This includes communications tools where data is stored outside of the UK.</p>
-    <p>This advice is endorsed by the Information Commissioner’s Office, the National Data Guardian and NHS Digital.</p>
+    <p>Information is critical to the response to Covid-19. Key pieces of data extracted from health and care settings, combined with information provided by patient’s themselves, will be used in new ways to care for people and help the NHS and social care to better understand and respond to the virus.</p>
+    
+    <h3 class="nhsuk-heading-s">Protecting privacy and confidentiality</h3>
+    <p>These are unusual times but data must continue to be used lawfully and, despite the pandemic resulting in a broader legal allowance of data collection and use, the same strict rules that protect citizen privacy apply to how this data is used.</p>
+    <p>These rules include collecting the minimum amount of information required; not using the information collected for the Covid-19 response for unrelated purposes; ensuring appropriate safeguards are in place and only keeping the information for as long as the outbreak is ongoing.</p>
 
-    <h3 class="nhsuk-heading-s">Mobile Messaging</h3>
-    <p>It is absolutely fine to use mobile messaging to communicate with colleagues and patients/service users as needed. It is also fine to use commercial, off-the-shelf applications such as WhatsApp and Telegram where there is no practical alternative and the benefits outweigh the risk.</p>
-    <p>The important thing, as always, is to consider what type of information you are sharing and with whom. And as much as possible limit the use of personal/confidential patient information.</p>
-
+    <h3 class="nhsuk-heading-s">Transparency and openness</h3>
+    <p>We must and will be transparent about what we’re doing. We will regularly update this document so you can stay updated on how data is being used. We will also publish a register of those who are provided with access to the information collected nationally and the reason why.</p>
+  
+    <h3 class="nhsuk-heading-s">Here are some examples of how information is being used to support the response to Covid-19:</h3>
+    <ol>
+        <li><b>Ensuring information is available to support the care of patients/service users</b></li>
+            <p>To ensure that those providing care for patients/service users have access to up-to-date information during the Covid-19 period, a comprehensive medical summary from an individual’s GP records will be made available to other GP practices, NHS 111 and other health and care services.</p>
+            <p>This means that GP practices which provide care to new patients in the event that a nearby practice temporarily closes due to an infection, or health and care professionals who provide advice to people contacting NHS 111, will have the information they need. Controls will be in place to ensure that only those caring for patients/service users have access.</p>
+        <li><b>Supporting vulnerable people</b></li>
+            <p>Using GP records of patients with certain underlying health conditions NHS Digital has compiled a list of people who are the most vulnerable to Covid-19. This is known as the Shielded Patient List, and is being used to support those that are the most vulnerable and have <a href="https://www.gov.uk/coronavirus-extremely-vulnerable/">identified themselves</a> as requiring additional support. Information about how this list has been compiled and which organisations it has been shared with and for what Covid-19 related purpose can be found on <a href="https://digital.nhs.uk/coronavirus/shielded-patient-list/">NHS Digital's website</a>.</p>
+        <li><b>Planning our response to Covid-19</b></li>
+            <p>To understand and anticipate demand on health and care services, we need a robust picture of the virus, how it’s spreading, where it might spread next and how that will affect the NHS and social care services. On the supply side, we need to know where the system is likely to face strain first, be that on ventilators, beds or staff sickness. This includes metrics such as:</p>
+            <ul>
+              <li>Current occupancy levels at hospitals, broken down by general beds and specialist and/or critical care beds</li>
+              <li>Current capacity of A&E departments and current waiting times</li>
+              <li>Statistics about the lengths of stay for Covid-19 patients</li>
+             </ul>
+             <p>NHS England and Improvement and NHSX have developed a single, secure store, that protects the privacy of our citizens, to gather data from across the health and care system to inform the Covid-19 response. A bespoke platform has also been built to allow analysis and interpretation of this data and to support organisations with secure, reliable and timely information to make informed, effective decisions about how to respond to the pandemic. It will also support researchers to understand more about the virus.</p>
+             <p>The data, which will always remain fully under the control of the NHS, will largely be from existing data sources e.g. data already collected by NHS England and NHS Improvement, Public Health England and NHS Digital. New data sources include 999 call data, real time hospital occupancy and A&E capacity data and ONS data sources as well as data provided by patients themselves - all of which will help us to identify hot spots and trends in order to get the country back to normal in a controlled way, as quickly as possible. All the data held in the platform is subject to strict controls that meet the requirements of data protection legislation.</p>  
+             <p>NHSX and NHS Digital have developed a three-pronged public facing service to give people with Covid-19 symptoms information and better measure the number of people with symptoms nationwide. This will help people support themselves and improve the ability of the NHS to prepare for variations in demand across the country. We are doing this by providing an <b>NHS Coronavirus symptom service</b> comprising three NHS services to  citizens. These are:</p>
+             <ul>
+              <li>111 online Covid-19 service</li>
+              <li>Text messaging to people who have symptoms to check in, reassure, give advice and treatment</li>
+              <li>A <a href="https://www.nhs.uk/coronavirus-status-checker/">Coronavirus status checker</a> to allow those who are self isolating and those who have tested positive for Covid-19 to record online geographic data and information about their illness.</li>
+             </ul>
+             <p>NHSX is also looking at whether app-based solutions might be helpful in tracking and managing coronavirus, and we have assembled expertise from inside and outside the organisation to do this as rapidly as possible.</p>
+             <p>NHSX is committed to making data and information public; as much as it is appropriate and responsible to do so. There is already a <a href="https://www.gov.uk/government/publications/covid-19-track-coronavirus-cases/">public-facing dashboard</a> available. Access to more detailed data as well as requests for collaboration will be carefully managed by NHSX and NHS England and Improvement through <a href="mailto:covid-19datasharing@nhsx.nhs.uk">one central mailbox</a>. This approach will ensure that policy makers, commissioners, planners and researchers involved in the national effort against Covid-19 have the information that they need.</p>
+       <li><b>Undertaking research to understand more about the virus</b></li>
+            <p>UK Biobank is studying how the health of 500,000 people is affected by their lifestyle, environment and genes. All participants have volunteered to be involved. This resource could offer further insight into Covid-19 e.g. the factors which make one individual experience more serious symptoms compared to another. To support this Covid-19 work, we have enabled UK Biobank to access data held by GP practices on those individuals who have agreed to be part of the UK Biobank programme.</p>
+            <p>The National Perinatal Epidemiology Unit at the University of Oxford is undertaking a study to understand the complications of Covid-19. Little information is available about how the virus affects mothers and new-born babies and it is not clear how best to care for mothers and babies affected. Little is also known about how babies become infected with Covid-19 and whether it transmits from mothers to their baby(s) while they are still pregnant, during labour and birth, or whether the infection occurs following birth. The British Paediatric Surveillance Unit (BPSU) will collect via a survey, information from doctors who have looked after a new-born baby or mother with Covid-19. This information will be linked with existing data, such as the National Neonatal Research (NNRD), the Paediatric Intensive Care Audit Network (PICANet), and the national surveillance of maternal and perinatal deaths (MBRRACE-UK) to ensure a complete understanding of the cases. This will mean we can provide better care to mothers and babies and the best advice to pregnant women about the effects of Covid-19 on their baby.</p>
+     </ol>
+            
+     <p><b>As time goes on, we will update this information to cover new ways in which data is being used to support the Covid-19 response. This may include examples of research into Covid-19: to understand the virus better, develop potential treatments / a vaccine and inform our response to future pandemics.</b></p>
+   
+        
   </div>
 
   <div class="nhsuk-grid-column-one-third">
