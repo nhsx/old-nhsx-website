@@ -1,5 +1,7 @@
 # NHSX website
 
+:warning: This repository has been deprecated and is now read only. This repository was for the first iteration of the NHSX website, which has now been redeveloped into a CMS.
+
 ## About the NHSX website
 
 From 1 July, NHSX will bring together teams from the Department of Health and Social Care, NHS England and NHS Improvement to drive digital transformation in health and care.
